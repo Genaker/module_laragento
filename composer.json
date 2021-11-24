@@ -1,6 +1,14 @@
 {
-    "require": {
-        "illuminate/database": "^8.0",
-        "genaker/laragento": "dev-main"
+    "name": "genaker/module-laragento",
+    "description": "Elouquent Laravel",
+    "type": "magento2-module",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Genaker\\Laragento\\": ""
+        }
     }
 }
