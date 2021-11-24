@@ -1,0 +1,28 @@
+<?php
+
+use IlluminateNew\Database\Migrations\Migration;
+use IlluminateNew\Database\Schema\Blueprint;
+use IlluminateNew\Support\Facades\Schema;
+
+class {{ class }} extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        //
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        //
+    }
+}

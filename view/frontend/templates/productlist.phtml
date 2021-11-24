@@ -1,0 +1,16 @@
+<?php
+/**
+ * @var $block \Genaker\Laragento\Block\ProductList
+ */
+?>
+<div>
+	<?= "TEST" //$block->getProducts() ?>
+	<?= __('Hello Genaker_Laragento::productlist.phtml') ?>
+<?php
+	$db = new \Genaker\Laragento\DB();
+	$db->connect();
+	//$invoices = \Laragento\Models\SalesInvoice::limit(1)->with('sales_order','sales_invoice_items','sales_invoice_comments')->get(); $invoices->toJson();
+	//var_dump($invoices);
+	//die();
+?>
+</div>
