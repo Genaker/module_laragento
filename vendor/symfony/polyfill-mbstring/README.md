@@ -1,4 +1,4 @@
-SymfonyNew Polyfill / Mbstring
+Symfony Polyfill / Mbstring
 ===========================
 
 This component provides a partial, native PHP implementation for the

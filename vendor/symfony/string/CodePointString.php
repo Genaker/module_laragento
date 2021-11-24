@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\String;
+namespace Symfony\Component\String;
 
-use SymfonyNew\Component\String\Exception\ExceptionInterface;
-use SymfonyNew\Component\String\Exception\InvalidArgumentException;
+use Symfony\Component\String\Exception\ExceptionInterface;
+use Symfony\Component\String\Exception\InvalidArgumentException;
 
 /**
  * Represents a string of Unicode code points encoded as UTF-8.

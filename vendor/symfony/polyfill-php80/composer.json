@@ -1,7 +1,7 @@
 {
     "name": "symfony/polyfill-php80",
     "type": "library",
-    "description": "SymfonyNew polyfill backporting some PHP 8.0+ features to lower PHP versions",
+    "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
     "keywords": ["polyfill", "shim", "compatibility", "portable"],
     "homepage": "https://symfony.com",
     "license": "MIT",
@@ -15,7 +15,7 @@
             "email": "p@tchwork.com"
         },
         {
-            "name": "SymfonyNew Community",
+            "name": "Symfony Community",
             "homepage": "https://symfony.com/contributors"
         }
     ],
@@ -23,7 +23,7 @@
         "php": ">=7.1"
     },
     "autoload": {
-        "psr-4": { "SymfonyNew\\Polyfill\\Php80\\": "" },
+        "psr-4": { "Symfony\\Polyfill\\Php80\\": "" },
         "files": [ "bootstrap.php" ],
         "classmap": [ "Resources/stubs" ]
     },

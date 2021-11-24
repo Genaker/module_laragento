@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Console\CommandLoader;
+namespace Symfony\Component\Console\CommandLoader;
 
 use Psr\Container\ContainerInterface;
-use SymfonyNew\Component\Console\Exception\CommandNotFoundException;
+use Symfony\Component\Console\Exception\CommandNotFoundException;
 
 /**
  * Loads commands from a PSR-11 container.

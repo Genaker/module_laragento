@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Translation\Loader;
+namespace Symfony\Component\Translation\Loader;
 
-use SymfonyNew\Component\Translation\Exception\InvalidResourceException;
+use Symfony\Component\Translation\Exception\InvalidResourceException;
 
 /**
  * @copyright Copyright (c) 2010, Union of RAD http://union-of-rad.org (http://lithify.me/)
@@ -22,13 +22,13 @@ class MoFileLoader extends FileLoader
      * Magic used for validating the format of an MO file as well as
      * detecting if the machine used to create that file was little endian.
      */
-    public const MO_LITTLE_ENDIAN_MAGIC = 0x950412de;
+    public const MO_LITTLE_ENDIAN_MAGIC = 0x950412DE;
 
     /**
      * Magic used for validating the format of an MO file as well as
      * detecting if the machine used to create that file was big endian.
      */
-    public const MO_BIG_ENDIAN_MAGIC = 0xde120495;
+    public const MO_BIG_ENDIAN_MAGIC = 0xDE120495;
 
     /**
      * The size of the header of an MO file in bytes.

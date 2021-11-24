@@ -6,8 +6,8 @@ use IlluminateNew\Console\Command;
 use IlluminateNew\Console\ConfirmableTrait;
 use IlluminateNew\Database\ConnectionResolverInterface as Resolver;
 use IlluminateNew\Database\Eloquent\Model;
-use SymfonyNew\Component\Console\Input\InputArgument;
-use SymfonyNew\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputOption;
 
 class SeedCommand extends Command
 {

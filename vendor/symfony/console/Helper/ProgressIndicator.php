@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Console\Helper;
+namespace Symfony\Component\Console\Helper;
 
-use SymfonyNew\Component\Console\Exception\InvalidArgumentException;
-use SymfonyNew\Component\Console\Exception\LogicException;
-use SymfonyNew\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Exception\InvalidArgumentException;
+use Symfony\Component\Console\Exception\LogicException;
+use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * @author Kevin Bond <kevinbond@gmail.com>

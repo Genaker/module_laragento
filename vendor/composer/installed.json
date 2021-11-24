@@ -95,19 +95,19 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Genaker/laragento.git",
-            "reference": "983df11f9f9c64efda86cee6483379a3949b49d0"
+            "reference": "5bd7e165e4f47ade6de79c83da303e578aba4fa3"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Genaker/laragento/zipball/983df11f9f9c64efda86cee6483379a3949b49d0",
-            "reference": "983df11f9f9c64efda86cee6483379a3949b49d0",
+            "url": "https://api.github.com/repos/Genaker/laragento/zipball/5bd7e165e4f47ade6de79c83da303e578aba4fa3",
+            "reference": "5bd7e165e4f47ade6de79c83da303e578aba4fa3",
             "shasum": ""
         },
         "require": {
             "illuminate/database": "^8",
             "php": ">=7.3"
         },
-        "time": "2021-11-17T07:39:54+00:00",
+        "time": "2021-11-19T22:55:22+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
@@ -124,8 +124,8 @@
     },
     {
         "name": "illuminate/collections",
-        "version": "v8.72.0",
-        "version_normalized": "8.72.0.0",
+        "version": "v8.73.2",
+        "version_normalized": "8.73.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/collections.git",
@@ -176,8 +176,8 @@
     },
     {
         "name": "illuminate/container",
-        "version": "v8.72.0",
-        "version_normalized": "8.72.0.0",
+        "version": "v8.73.2",
+        "version_normalized": "8.73.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/container.git",
@@ -225,8 +225,8 @@
     },
     {
         "name": "illuminate/contracts",
-        "version": "v8.72.0",
-        "version_normalized": "8.72.0.0",
+        "version": "v8.73.2",
+        "version_normalized": "8.73.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/contracts.git",
@@ -271,17 +271,17 @@
     },
     {
         "name": "illuminate/database",
-        "version": "v8.72.0",
-        "version_normalized": "8.72.0.0",
+        "version": "v8.73.2",
+        "version_normalized": "8.73.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/database.git",
-            "reference": "c7d2dc41fd18db7dfe7cd8e760debdfb0d36841d"
+            "reference": "f93e5370a3d321de697755f185395bdf75e0ccc4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/database/zipball/c7d2dc41fd18db7dfe7cd8e760debdfb0d36841d",
-            "reference": "c7d2dc41fd18db7dfe7cd8e760debdfb0d36841d",
+            "url": "https://api.github.com/repos/illuminate/database/zipball/f93e5370a3d321de697755f185395bdf75e0ccc4",
+            "reference": "f93e5370a3d321de697755f185395bdf75e0ccc4",
             "shasum": ""
         },
         "require": {
@@ -303,7 +303,7 @@
             "illuminate/pagination": "Required to paginate the result set (^8.0).",
             "symfony/finder": "Required to use Eloquent model factories (^5.1.4)."
         },
-        "time": "2021-11-17T15:04:30+00:00",
+        "time": "2021-11-23T14:10:34+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -337,8 +337,8 @@
     },
     {
         "name": "illuminate/macroable",
-        "version": "v8.72.0",
-        "version_normalized": "8.72.0.0",
+        "version": "v8.73.2",
+        "version_normalized": "8.73.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/macroable.git",
@@ -381,17 +381,17 @@
     },
     {
         "name": "illuminate/support",
-        "version": "v8.72.0",
-        "version_normalized": "8.72.0.0",
+        "version": "v8.73.2",
+        "version_normalized": "8.73.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/support.git",
-            "reference": "bad652d0dfec26e9597ffb292fc728201310c113"
+            "reference": "ecb4d4fb01f9716b2decbb1bf584ea8164c3b222"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/support/zipball/bad652d0dfec26e9597ffb292fc728201310c113",
-            "reference": "bad652d0dfec26e9597ffb292fc728201310c113",
+            "url": "https://api.github.com/repos/illuminate/support/zipball/ecb4d4fb01f9716b2decbb1bf584ea8164c3b222",
+            "reference": "ecb4d4fb01f9716b2decbb1bf584ea8164c3b222",
             "shasum": ""
         },
         "require": {
@@ -416,7 +416,7 @@
             "symfony/var-dumper": "Required to use the dd function (^5.1.4).",
             "vlucas/phpdotenv": "Required to use the Env class and env helper (^5.2)."
         },
-        "time": "2021-11-17T15:04:30+00:00",
+        "time": "2021-11-23T14:10:18+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -636,17 +636,17 @@
     },
     {
         "name": "symfony/console",
-        "version": "v5.3.10",
-        "version_normalized": "5.3.10.0",
+        "version": "v5.3.11",
+        "version_normalized": "5.3.11.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/console.git",
-            "reference": "d4e409d9fbcfbf71af0e5a940abb7b0b4bad0bd3"
+            "reference": "3e7ab8f5905058984899b05a4648096f558bfeba"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/console/zipball/d4e409d9fbcfbf71af0e5a940abb7b0b4bad0bd3",
-            "reference": "d4e409d9fbcfbf71af0e5a940abb7b0b4bad0bd3",
+            "url": "https://api.github.com/repos/symfony/console/zipball/3e7ab8f5905058984899b05a4648096f558bfeba",
+            "reference": "3e7ab8f5905058984899b05a4648096f558bfeba",
             "shasum": ""
         },
         "require": {
@@ -659,7 +659,6 @@
             "symfony/string": "^5.1"
         },
         "conflict": {
-            "psr/log": ">=3",
             "symfony/dependency-injection": "<4.4",
             "symfony/dotenv": "<5.1",
             "symfony/event-dispatcher": "<4.4",
@@ -684,12 +683,12 @@
             "symfony/lock": "",
             "symfony/process": ""
         },
-        "time": "2021-10-26T09:30:15+00:00",
+        "time": "2021-11-21T19:41:05+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "SymfonyNew\\Component\\Console\\": ""
+                "Symfony\\Component\\Console\\": ""
             },
             "exclude-from-classmap": [
                 "/Tests/"
@@ -705,7 +704,7 @@
                 "email": "fabien@symfony.com"
             },
             {
-                "name": "SymfonyNew Community",
+                "name": "Symfony Community",
                 "homepage": "https://symfony.com/contributors"
             }
         ],
@@ -734,27 +733,27 @@
     },
     {
         "name": "symfony/deprecation-contracts",
-        "version": "v2.4.0",
-        "version_normalized": "2.4.0.0",
+        "version": "v2.5.0",
+        "version_normalized": "2.5.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/deprecation-contracts.git",
-            "reference": "5f38c8804a9e97d23e0c8d63341088cd8a22d627"
+            "reference": "6f981ee24cf69ee7ce9736146d1c57c2780598a8"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/5f38c8804a9e97d23e0c8d63341088cd8a22d627",
-            "reference": "5f38c8804a9e97d23e0c8d63341088cd8a22d627",
+            "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/6f981ee24cf69ee7ce9736146d1c57c2780598a8",
+            "reference": "6f981ee24cf69ee7ce9736146d1c57c2780598a8",
             "shasum": ""
         },
         "require": {
             "php": ">=7.1"
         },
-        "time": "2021-03-23T23:28:01+00:00",
+        "time": "2021-07-12T14:48:14+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-main": "2.4-dev"
+                "dev-main": "2.5-dev"
             },
             "thanks": {
                 "name": "symfony/contracts",
@@ -777,7 +776,7 @@
                 "email": "p@tchwork.com"
             },
             {
-                "name": "SymfonyNew Community",
+                "name": "Symfony Community",
                 "homepage": "https://symfony.com/contributors"
             }
         ],
@@ -833,7 +832,7 @@
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "SymfonyNew\\Polyfill\\Ctype\\": ""
+                "Symfony\\Polyfill\\Ctype\\": ""
             },
             "files": [
                 "bootstrap.php"
@@ -849,11 +848,11 @@
                 "email": "BackEndTea@gmail.com"
             },
             {
-                "name": "SymfonyNew Community",
+                "name": "Symfony Community",
                 "homepage": "https://symfony.com/contributors"
             }
         ],
-        "description": "SymfonyNew polyfill for ctype functions",
+        "description": "Symfony polyfill for ctype functions",
         "homepage": "https://symfony.com",
         "keywords": [
             "compatibility",
@@ -911,7 +910,7 @@
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "SymfonyNew\\Polyfill\\Intl\\Grapheme\\": ""
+                "Symfony\\Polyfill\\Intl\\Grapheme\\": ""
             },
             "files": [
                 "bootstrap.php"
@@ -927,11 +926,11 @@
                 "email": "p@tchwork.com"
             },
             {
-                "name": "SymfonyNew Community",
+                "name": "Symfony Community",
                 "homepage": "https://symfony.com/contributors"
             }
         ],
-        "description": "SymfonyNew polyfill for intl's grapheme_* functions",
+        "description": "Symfony polyfill for intl's grapheme_* functions",
         "homepage": "https://symfony.com",
         "keywords": [
             "compatibility",
@@ -991,7 +990,7 @@
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "SymfonyNew\\Polyfill\\Intl\\Normalizer\\": ""
+                "Symfony\\Polyfill\\Intl\\Normalizer\\": ""
             },
             "files": [
                 "bootstrap.php"
@@ -1010,11 +1009,11 @@
                 "email": "p@tchwork.com"
             },
             {
-                "name": "SymfonyNew Community",
+                "name": "Symfony Community",
                 "homepage": "https://symfony.com/contributors"
             }
         ],
-        "description": "SymfonyNew polyfill for intl's Normalizer class and related functions",
+        "description": "Symfony polyfill for intl's Normalizer class and related functions",
         "homepage": "https://symfony.com",
         "keywords": [
             "compatibility",
@@ -1074,7 +1073,7 @@
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "SymfonyNew\\Polyfill\\Mbstring\\": ""
+                "Symfony\\Polyfill\\Mbstring\\": ""
             },
             "files": [
                 "bootstrap.php"
@@ -1090,11 +1089,11 @@
                 "email": "p@tchwork.com"
             },
             {
-                "name": "SymfonyNew Community",
+                "name": "Symfony Community",
                 "homepage": "https://symfony.com/contributors"
             }
         ],
-        "description": "SymfonyNew polyfill for the Mbstring extension",
+        "description": "Symfony polyfill for the Mbstring extension",
         "homepage": "https://symfony.com",
         "keywords": [
             "compatibility",
@@ -1150,7 +1149,7 @@
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "SymfonyNew\\Polyfill\\Php73\\": ""
+                "Symfony\\Polyfill\\Php73\\": ""
             },
             "files": [
                 "bootstrap.php"
@@ -1169,11 +1168,11 @@
                 "email": "p@tchwork.com"
             },
             {
-                "name": "SymfonyNew Community",
+                "name": "Symfony Community",
                 "homepage": "https://symfony.com/contributors"
             }
         ],
-        "description": "SymfonyNew polyfill backporting some PHP 7.3+ features to lower PHP versions",
+        "description": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
         "homepage": "https://symfony.com",
         "keywords": [
             "compatibility",
@@ -1228,7 +1227,7 @@
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "SymfonyNew\\Polyfill\\Php80\\": ""
+                "Symfony\\Polyfill\\Php80\\": ""
             },
             "files": [
                 "bootstrap.php"
@@ -1251,11 +1250,11 @@
                 "email": "p@tchwork.com"
             },
             {
-                "name": "SymfonyNew Community",
+                "name": "Symfony Community",
                 "homepage": "https://symfony.com/contributors"
             }
         ],
-        "description": "SymfonyNew polyfill backporting some PHP 8.0+ features to lower PHP versions",
+        "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
         "homepage": "https://symfony.com",
         "keywords": [
             "compatibility",
@@ -1280,31 +1279,35 @@
     },
     {
         "name": "symfony/service-contracts",
-        "version": "v2.4.0",
-        "version_normalized": "2.4.0.0",
+        "version": "v2.5.0",
+        "version_normalized": "2.5.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/service-contracts.git",
-            "reference": "f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb"
+            "reference": "1ab11b933cd6bc5464b08e81e2c5b07dec58b0fc"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/service-contracts/zipball/f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb",
-            "reference": "f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb",
+            "url": "https://api.github.com/repos/symfony/service-contracts/zipball/1ab11b933cd6bc5464b08e81e2c5b07dec58b0fc",
+            "reference": "1ab11b933cd6bc5464b08e81e2c5b07dec58b0fc",
             "shasum": ""
         },
         "require": {
             "php": ">=7.2.5",
-            "psr/container": "^1.1"
+            "psr/container": "^1.1",
+            "symfony/deprecation-contracts": "^2.1"
+        },
+        "conflict": {
+            "ext-psr": "<1.1|>=2"
         },
         "suggest": {
             "symfony/service-implementation": ""
         },
-        "time": "2021-04-01T10:43:52+00:00",
+        "time": "2021-11-04T16:48:04+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-main": "2.4-dev"
+                "dev-main": "2.5-dev"
             },
             "thanks": {
                 "name": "symfony/contracts",
@@ -1314,7 +1317,7 @@
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "SymfonyNew\\Contracts\\Service\\": ""
+                "Symfony\\Contracts\\Service\\": ""
             }
         },
         "notification-url": "https://packagist.org/downloads/",
@@ -1327,7 +1330,7 @@
                 "email": "p@tchwork.com"
             },
             {
-                "name": "SymfonyNew Community",
+                "name": "Symfony Community",
                 "homepage": "https://symfony.com/contributors"
             }
         ],
@@ -1390,7 +1393,7 @@
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "SymfonyNew\\Component\\String\\": ""
+                "Symfony\\Component\\String\\": ""
             },
             "files": [
                 "Resources/functions.php"
@@ -1409,7 +1412,7 @@
                 "email": "p@tchwork.com"
             },
             {
-                "name": "SymfonyNew Community",
+                "name": "Symfony Community",
                 "homepage": "https://symfony.com/contributors"
             }
         ],
@@ -1440,17 +1443,17 @@
     },
     {
         "name": "symfony/translation",
-        "version": "v5.3.10",
-        "version_normalized": "5.3.10.0",
+        "version": "v5.3.11",
+        "version_normalized": "5.3.11.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/translation.git",
-            "reference": "6ef197aea2ac8b9cd63e0da7522b3771714035aa"
+            "reference": "17a965c8f3b1b348cf15d903ac53942984561f8a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/translation/zipball/6ef197aea2ac8b9cd63e0da7522b3771714035aa",
-            "reference": "6ef197aea2ac8b9cd63e0da7522b3771714035aa",
+            "url": "https://api.github.com/repos/symfony/translation/zipball/17a965c8f3b1b348cf15d903ac53942984561f8a",
+            "reference": "17a965c8f3b1b348cf15d903ac53942984561f8a",
             "shasum": ""
         },
         "require": {
@@ -1487,7 +1490,7 @@
             "symfony/config": "",
             "symfony/yaml": ""
         },
-        "time": "2021-10-10T06:43:24+00:00",
+        "time": "2021-11-04T16:37:19+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -1495,7 +1498,7 @@
                 "Resources/functions.php"
             ],
             "psr-4": {
-                "SymfonyNew\\Component\\Translation\\": ""
+                "Symfony\\Component\\Translation\\": ""
             },
             "exclude-from-classmap": [
                 "/Tests/"
@@ -1511,7 +1514,7 @@
                 "email": "fabien@symfony.com"
             },
             {
-                "name": "SymfonyNew Community",
+                "name": "Symfony Community",
                 "homepage": "https://symfony.com/contributors"
             }
         ],
@@ -1534,17 +1537,17 @@
     },
     {
         "name": "symfony/translation-contracts",
-        "version": "v2.4.0",
-        "version_normalized": "2.4.0.0",
+        "version": "v2.5.0",
+        "version_normalized": "2.5.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/translation-contracts.git",
-            "reference": "95c812666f3e91db75385749fe219c5e494c7f95"
+            "reference": "d28150f0f44ce854e942b671fc2620a98aae1b1e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/95c812666f3e91db75385749fe219c5e494c7f95",
-            "reference": "95c812666f3e91db75385749fe219c5e494c7f95",
+            "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/d28150f0f44ce854e942b671fc2620a98aae1b1e",
+            "reference": "d28150f0f44ce854e942b671fc2620a98aae1b1e",
             "shasum": ""
         },
         "require": {
@@ -1553,11 +1556,11 @@
         "suggest": {
             "symfony/translation-implementation": ""
         },
-        "time": "2021-03-23T23:28:01+00:00",
+        "time": "2021-08-17T14:20:01+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-main": "2.4-dev"
+                "dev-main": "2.5-dev"
             },
             "thanks": {
                 "name": "symfony/contracts",
@@ -1567,7 +1570,7 @@
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "SymfonyNew\\Contracts\\Translation\\": ""
+                "Symfony\\Contracts\\Translation\\": ""
             }
         },
         "notification-url": "https://packagist.org/downloads/",
@@ -1580,7 +1583,7 @@
                 "email": "p@tchwork.com"
             },
             {
-                "name": "SymfonyNew Community",
+                "name": "Symfony Community",
                 "homepage": "https://symfony.com/contributors"
             }
         ],

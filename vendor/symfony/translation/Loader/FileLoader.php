@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Translation\Loader;
+namespace Symfony\Component\Translation\Loader;
 
-use SymfonyNew\Component\Config\Resource\FileResource;
-use SymfonyNew\Component\Translation\Exception\InvalidResourceException;
-use SymfonyNew\Component\Translation\Exception\NotFoundResourceException;
+use Symfony\Component\Config\Resource\FileResource;
+use Symfony\Component\Translation\Exception\InvalidResourceException;
+use Symfony\Component\Translation\Exception\NotFoundResourceException;
 
 /**
  * @author Abdellatif Ait boudad <a.aitboudad@gmail.com>

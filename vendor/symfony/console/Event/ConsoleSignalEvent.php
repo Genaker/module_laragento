@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Console\Event;
+namespace Symfony\Component\Console\Event;
 
-use SymfonyNew\Component\Console\Command\Command;
-use SymfonyNew\Component\Console\Input\InputInterface;
-use SymfonyNew\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * @author marie <marie@users.noreply.github.com>

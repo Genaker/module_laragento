@@ -14,9 +14,9 @@
  * - Quentí
  */
 // @codeCoverageIgnoreStart
-use SymfonyNew\Component\Translation\PluralizationRules;
+use Symfony\Component\Translation\PluralizationRules;
 
-if (class_exists('SymfonyNew\\Component\\Translation\\PluralizationRules')) {
+if (class_exists('Symfony\\Component\\Translation\\PluralizationRules')) {
     PluralizationRules::set(function ($number) {
         return $number == 1 ? 0 : 1;
     }, 'oc');

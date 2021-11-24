@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Translation\Test;
+namespace Symfony\Component\Translation\Test;
 
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
-use SymfonyNew\Component\HttpClient\MockHttpClient;
-use SymfonyNew\Component\Translation\Dumper\XliffFileDumper;
-use SymfonyNew\Component\Translation\Exception\IncompleteDsnException;
-use SymfonyNew\Component\Translation\Exception\UnsupportedSchemeException;
-use SymfonyNew\Component\Translation\Loader\LoaderInterface;
-use SymfonyNew\Component\Translation\Provider\Dsn;
-use SymfonyNew\Component\Translation\Provider\ProviderFactoryInterface;
-use SymfonyNew\Contracts\HttpClient\HttpClientInterface;
+use Symfony\Component\HttpClient\MockHttpClient;
+use Symfony\Component\Translation\Dumper\XliffFileDumper;
+use Symfony\Component\Translation\Exception\IncompleteDsnException;
+use Symfony\Component\Translation\Exception\UnsupportedSchemeException;
+use Symfony\Component\Translation\Loader\LoaderInterface;
+use Symfony\Component\Translation\Provider\Dsn;
+use Symfony\Component\Translation\Provider\ProviderFactoryInterface;
+use Symfony\Contracts\HttpClient\HttpClientInterface;
 
 /**
  * A test case to ease testing a translation provider factory.

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Translation\Loader;
+namespace Symfony\Component\Translation\Loader;
 
-use SymfonyNew\Component\Translation\Exception\InvalidResourceException;
-use SymfonyNew\Component\Translation\Exception\LogicException;
-use SymfonyNew\Component\Yaml\Exception\ParseException;
-use SymfonyNew\Component\Yaml\Parser as YamlParser;
-use SymfonyNew\Component\Yaml\Yaml;
+use Symfony\Component\Translation\Exception\InvalidResourceException;
+use Symfony\Component\Translation\Exception\LogicException;
+use Symfony\Component\Yaml\Exception\ParseException;
+use Symfony\Component\Yaml\Parser as YamlParser;
+use Symfony\Component\Yaml\Yaml;
 
 /**
  * YamlFileLoader loads translations from Yaml files.
@@ -32,8 +32,8 @@ class YamlFileLoader extends FileLoader
     protected function loadResource(string $resource)
     {
         if (null === $this->yamlParser) {
-            if (!class_exists(\SymfonyNew\Component\Yaml\Parser::class)) {
-                throw new LogicException('Loading translations from the YAML format requires the SymfonyNew Yaml component.');
+            if (!class_exists(\Symfony\Component\Yaml\Parser::class)) {
+                throw new LogicException('Loading translations from the YAML format requires the Symfony Yaml component.');
             }
 
             $this->yamlParser = new YamlParser();

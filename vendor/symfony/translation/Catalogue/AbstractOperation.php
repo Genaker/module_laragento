@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Translation\Catalogue;
+namespace Symfony\Component\Translation\Catalogue;
 
-use SymfonyNew\Component\Translation\Exception\InvalidArgumentException;
-use SymfonyNew\Component\Translation\Exception\LogicException;
-use SymfonyNew\Component\Translation\MessageCatalogue;
-use SymfonyNew\Component\Translation\MessageCatalogueInterface;
+use Symfony\Component\Translation\Exception\InvalidArgumentException;
+use Symfony\Component\Translation\Exception\LogicException;
+use Symfony\Component\Translation\MessageCatalogue;
+use Symfony\Component\Translation\MessageCatalogueInterface;
 
 /**
  * Base catalogues binary operation class.

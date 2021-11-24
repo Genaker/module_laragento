@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Translation\DependencyInjection;
+namespace Symfony\Component\Translation\DependencyInjection;
 
-use SymfonyNew\Component\DependencyInjection\Compiler\AbstractRecursivePass;
-use SymfonyNew\Component\DependencyInjection\ContainerBuilder;
-use SymfonyNew\Component\DependencyInjection\Definition;
-use SymfonyNew\Component\DependencyInjection\Reference;
-use SymfonyNew\Component\DependencyInjection\ServiceLocator;
+use Symfony\Component\DependencyInjection\Compiler\AbstractRecursivePass;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
+use Symfony\Component\DependencyInjection\Definition;
+use Symfony\Component\DependencyInjection\Reference;
+use Symfony\Component\DependencyInjection\ServiceLocator;
 
 /**
  * @author Yonel Ceruto <yonelceruto@gmail.com>

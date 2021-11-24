@@ -7,7 +7,7 @@ use IlluminateNew\Support\Traits\Conditionable;
 use IlluminateNew\Support\Traits\Macroable;
 use IlluminateNew\Support\Traits\Tappable;
 use JsonSerializable;
-use SymfonyNew\Component\VarDumper\VarDumper;
+use Symfony\Component\VarDumper\VarDumper;
 
 class Stringable implements JsonSerializable
 {

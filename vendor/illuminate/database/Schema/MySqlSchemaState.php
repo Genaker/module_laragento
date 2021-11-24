@@ -5,7 +5,7 @@ namespace IlluminateNew\Database\Schema;
 use Exception;
 use IlluminateNew\Database\Connection;
 use IlluminateNew\Support\Str;
-use SymfonyNew\Component\Process\Process;
+use Symfony\Component\Process\Process;
 
 class MySqlSchemaState extends SchemaState
 {
@@ -133,10 +133,10 @@ class MySqlSchemaState extends SchemaState
     /**
      * Execute the given dump process.
      *
-     * @param  \SymfonyNew\Component\Process\Process  $process
+     * @param  \Symfony\Component\Process\Process  $process
      * @param  callable  $output
      * @param  array  $variables
-     * @return \SymfonyNew\Component\Process\Process
+     * @return \Symfony\Component\Process\Process
      */
     protected function executeDumpProcess(Process $process, $output, array $variables)
     {

@@ -4,7 +4,7 @@ namespace IlluminateNew\Database\Console\Migrations;
 
 use IlluminateNew\Console\Command;
 use IlluminateNew\Database\Migrations\MigrationRepositoryInterface;
-use SymfonyNew\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Input\InputOption;
 
 class InstallCommand extends Command
 {

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Translation\Dumper;
+namespace Symfony\Component\Translation\Dumper;
 
-use SymfonyNew\Component\Translation\Exception\InvalidArgumentException;
-use SymfonyNew\Component\Translation\Exception\RuntimeException;
-use SymfonyNew\Component\Translation\MessageCatalogue;
+use Symfony\Component\Translation\Exception\InvalidArgumentException;
+use Symfony\Component\Translation\Exception\RuntimeException;
+use Symfony\Component\Translation\MessageCatalogue;
 
 /**
  * FileDumper is an implementation of DumperInterface that dump a message catalogue to file(s).

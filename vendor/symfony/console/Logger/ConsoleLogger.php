@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,13 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Console\Logger;
+namespace Symfony\Component\Console\Logger;
 
 use Psr\Log\AbstractLogger;
 use Psr\Log\InvalidArgumentException;
 use Psr\Log\LogLevel;
-use SymfonyNew\Component\Console\Output\ConsoleOutputInterface;
-use SymfonyNew\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Output\ConsoleOutputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
+
+if ((new \ReflectionMethod(AbstractLogger::class, 'log'))->hasReturnType()) {
+    throw new \RuntimeException(sprintf('The "%s" logger is not compatible with psr/log >= 3.0. Try running "composer require psr/log:^2.".', ConsoleLogger::class));
+}
 
 /**
  * PSR-3 compliant console logger.

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,31 +9,31 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Console\Style;
+namespace Symfony\Component\Console\Style;
 
-use SymfonyNew\Component\Console\Exception\InvalidArgumentException;
-use SymfonyNew\Component\Console\Exception\RuntimeException;
-use SymfonyNew\Component\Console\Formatter\OutputFormatter;
-use SymfonyNew\Component\Console\Helper\Helper;
-use SymfonyNew\Component\Console\Helper\ProgressBar;
-use SymfonyNew\Component\Console\Helper\SymfonyNewQuestionHelper;
-use SymfonyNew\Component\Console\Helper\Table;
-use SymfonyNew\Component\Console\Helper\TableCell;
-use SymfonyNew\Component\Console\Helper\TableSeparator;
-use SymfonyNew\Component\Console\Input\InputInterface;
-use SymfonyNew\Component\Console\Output\OutputInterface;
-use SymfonyNew\Component\Console\Output\TrimmedBufferOutput;
-use SymfonyNew\Component\Console\Question\ChoiceQuestion;
-use SymfonyNew\Component\Console\Question\ConfirmationQuestion;
-use SymfonyNew\Component\Console\Question\Question;
-use SymfonyNew\Component\Console\Terminal;
+use Symfony\Component\Console\Exception\InvalidArgumentException;
+use Symfony\Component\Console\Exception\RuntimeException;
+use Symfony\Component\Console\Formatter\OutputFormatter;
+use Symfony\Component\Console\Helper\Helper;
+use Symfony\Component\Console\Helper\ProgressBar;
+use Symfony\Component\Console\Helper\SymfonyQuestionHelper;
+use Symfony\Component\Console\Helper\Table;
+use Symfony\Component\Console\Helper\TableCell;
+use Symfony\Component\Console\Helper\TableSeparator;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Output\TrimmedBufferOutput;
+use Symfony\Component\Console\Question\ChoiceQuestion;
+use Symfony\Component\Console\Question\ConfirmationQuestion;
+use Symfony\Component\Console\Question\Question;
+use Symfony\Component\Console\Terminal;
 
 /**
- * Output decorator helpers for the SymfonyNew Style Guide.
+ * Output decorator helpers for the Symfony Style Guide.
  *
  * @author Kevin Bond <kevinbond@gmail.com>
  */
-class SymfonyNewStyle extends OutputStyle
+class SymfonyStyle extends OutputStyle
 {
     public const MAX_LINE_LENGTH = 120;
 
@@ -359,7 +359,7 @@ class SymfonyNewStyle extends OutputStyle
         }
 
         if (!$this->questionHelper) {
-            $this->questionHelper = new SymfonyNewQuestionHelper();
+            $this->questionHelper = new SymfonyQuestionHelper();
         }
 
         $answer = $this->questionHelper->ask($this->input, $this, $question);

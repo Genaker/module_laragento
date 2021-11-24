@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Translation\DataCollector;
+namespace Symfony\Component\Translation\DataCollector;
 
-use SymfonyNew\Component\HttpFoundation\Request;
-use SymfonyNew\Component\HttpFoundation\Response;
-use SymfonyNew\Component\HttpKernel\DataCollector\DataCollector;
-use SymfonyNew\Component\HttpKernel\DataCollector\LateDataCollectorInterface;
-use SymfonyNew\Component\Translation\DataCollectorTranslator;
-use SymfonyNew\Component\VarDumper\Cloner\Data;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpKernel\DataCollector\DataCollector;
+use Symfony\Component\HttpKernel\DataCollector\LateDataCollectorInterface;
+use Symfony\Component\Translation\DataCollectorTranslator;
+use Symfony\Component\VarDumper\Cloner\Data;
 
 /**
  * @author Abdellatif Ait boudad <a.aitboudad@gmail.com>

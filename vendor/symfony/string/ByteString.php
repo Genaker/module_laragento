@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\String;
+namespace Symfony\Component\String;
 
-use SymfonyNew\Component\String\Exception\ExceptionInterface;
-use SymfonyNew\Component\String\Exception\InvalidArgumentException;
-use SymfonyNew\Component\String\Exception\RuntimeException;
+use Symfony\Component\String\Exception\ExceptionInterface;
+use Symfony\Component\String\Exception\InvalidArgumentException;
+use Symfony\Component\String\Exception\RuntimeException;
 
 /**
  * Represents a binary-safe string of bytes.

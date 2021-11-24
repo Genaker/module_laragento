@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Contracts\Translation;
+namespace Symfony\Contracts\Translation;
 
-use SymfonyNew\Component\Translation\Exception\InvalidArgumentException;
+use Symfony\Component\Translation\Exception\InvalidArgumentException;
 
 /**
  * A trait to help implement TranslatorInterface and LocaleAwareInterface.
@@ -142,7 +142,7 @@ EOF;
     {
         $number = abs($number);
 
-        switch ('pt_BR' !== $locale && \strlen($locale) > 3 ? substr($locale, 0, strrpos($locale, '_')) : $locale) {
+        switch ('pt_BR' !== $locale && 'en_US_POSIX' !== $locale && \strlen($locale) > 3 ? substr($locale, 0, strrpos($locale, '_')) : $locale) {
             case 'af':
             case 'bn':
             case 'bg':
@@ -151,6 +151,7 @@ EOF;
             case 'de':
             case 'el':
             case 'en':
+            case 'en_US_POSIX':
             case 'eo':
             case 'es':
             case 'et':

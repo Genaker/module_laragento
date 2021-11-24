@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Contracts\Translation\Test;
+namespace Symfony\Contracts\Translation\Test;
 
 use PHPUnit\Framework\TestCase;
-use SymfonyNew\Contracts\Translation\TranslatorInterface;
-use SymfonyNew\Contracts\Translation\TranslatorTrait;
+use Symfony\Contracts\Translation\TranslatorInterface;
+use Symfony\Contracts\Translation\TranslatorTrait;
 
 /**
  * Test should cover all languages mentioned on http://translate.sourceforge.net/wiki/l10n/pluralforms
@@ -30,6 +30,22 @@ use SymfonyNew\Contracts\Translation\TranslatorTrait;
  */
 class TranslatorTest extends TestCase
 {
+    private $defaultLocale;
+
+    protected function setUp(): void
+    {
+        $this->defaultLocale = \Locale::getDefault();
+        \Locale::setDefault('en');
+    }
+
+    protected function tearDown(): void
+    {
+        \Locale::setDefault($this->defaultLocale);
+    }
+
+    /**
+     * @return TranslatorInterface
+     */
     public function getTranslator()
     {
         return new class() implements TranslatorInterface {
@@ -53,7 +69,6 @@ class TranslatorTest extends TestCase
     public function testTransChoiceWithExplicitLocale($expected, $id, $number)
     {
         $translator = $this->getTranslator();
-        $translator->setLocale('en');
 
         $this->assertEquals($expected, $translator->trans($id, ['%count%' => $number]));
     }
@@ -65,9 +80,18 @@ class TranslatorTest extends TestCase
      */
     public function testTransChoiceWithDefaultLocale($expected, $id, $number)
     {
-        \Locale::setDefault('en');
-
         $translator = $this->getTranslator();
+
+        $this->assertEquals($expected, $translator->trans($id, ['%count%' => $number]));
+    }
+
+    /**
+     * @dataProvider getTransChoiceTests
+     */
+    public function testTransChoiceWithEnUsPosix($expected, $id, $number)
+    {
+        $translator = $this->getTranslator();
+        $translator->setLocale('en_US_POSIX');
 
         $this->assertEquals($expected, $translator->trans($id, ['%count%' => $number]));
     }
@@ -75,7 +99,6 @@ class TranslatorTest extends TestCase
     public function testGetSetLocale()
     {
         $translator = $this->getTranslator();
-        $translator->setLocale('en');
 
         $this->assertEquals('en', $translator->getLocale());
     }
@@ -97,8 +120,8 @@ class TranslatorTest extends TestCase
     public function getTransTests()
     {
         return [
-            ['SymfonyNew is great!', 'SymfonyNew is great!', []],
-            ['SymfonyNew is awesome!', 'SymfonyNew is %what%!', ['%what%' => 'awesome']],
+            ['Symfony is great!', 'Symfony is great!', []],
+            ['Symfony is awesome!', 'Symfony is %what%!', ['%what%' => 'awesome']],
         ];
     }
 
@@ -301,7 +324,7 @@ class TranslatorTest extends TestCase
     {
         return [
             ['1', ['ay', 'bo', 'cgg', 'dz', 'id', 'ja', 'jbo', 'ka', 'kk', 'km', 'ko', 'ky']],
-            ['2', ['nl', 'fr', 'en', 'de', 'de_GE', 'hy', 'hy_AM']],
+            ['2', ['nl', 'fr', 'en', 'de', 'de_GE', 'hy', 'hy_AM', 'en_US_POSIX']],
             ['3', ['be', 'bs', 'cs', 'hr']],
             ['4', ['cy', 'mt', 'sl']],
             ['6', ['ar']],

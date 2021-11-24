@@ -29,7 +29,7 @@ interface ExceptionHandler
      *
      * @param  \IlluminateNew\Http\Request  $request
      * @param  \Throwable  $e
-     * @return \SymfonyNew\Component\HttpFoundation\Response
+     * @return \Symfony\Component\HttpFoundation\Response
      *
      * @throws \Throwable
      */
@@ -38,7 +38,7 @@ interface ExceptionHandler
     /**
      * Render an exception to the console.
      *
-     * @param  \SymfonyNew\Component\Console\Output\OutputInterface  $output
+     * @param  \Symfony\Component\Console\Output\OutputInterface  $output
      * @param  \Throwable  $e
      * @return void
      */

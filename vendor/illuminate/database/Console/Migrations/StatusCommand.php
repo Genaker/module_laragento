@@ -4,7 +4,7 @@ namespace IlluminateNew\Database\Console\Migrations;
 
 use IlluminateNew\Database\Migrations\Migrator;
 use IlluminateNew\Support\Collection;
-use SymfonyNew\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Input\InputOption;
 
 class StatusCommand extends BaseCommand
 {

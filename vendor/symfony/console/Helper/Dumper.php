@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Console\Helper;
+namespace Symfony\Component\Console\Helper;
 
-use SymfonyNew\Component\Console\Output\OutputInterface;
-use SymfonyNew\Component\VarDumper\Cloner\ClonerInterface;
-use SymfonyNew\Component\VarDumper\Cloner\VarCloner;
-use SymfonyNew\Component\VarDumper\Dumper\CliDumper;
+use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\VarDumper\Cloner\ClonerInterface;
+use Symfony\Component\VarDumper\Cloner\VarCloner;
+use Symfony\Component\VarDumper\Dumper\CliDumper;
 
 /**
  * @author Roland Franssen <franssen.roland@gmail.com>

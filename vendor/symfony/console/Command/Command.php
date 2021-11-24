@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,19 +9,19 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Console\Command;
+namespace Symfony\Component\Console\Command;
 
-use SymfonyNew\Component\Console\Application;
-use SymfonyNew\Component\Console\Attribute\AsCommand;
-use SymfonyNew\Component\Console\Exception\ExceptionInterface;
-use SymfonyNew\Component\Console\Exception\InvalidArgumentException;
-use SymfonyNew\Component\Console\Exception\LogicException;
-use SymfonyNew\Component\Console\Helper\HelperSet;
-use SymfonyNew\Component\Console\Input\InputArgument;
-use SymfonyNew\Component\Console\Input\InputDefinition;
-use SymfonyNew\Component\Console\Input\InputInterface;
-use SymfonyNew\Component\Console\Input\InputOption;
-use SymfonyNew\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Application;
+use Symfony\Component\Console\Attribute\AsCommand;
+use Symfony\Component\Console\Exception\ExceptionInterface;
+use Symfony\Component\Console\Exception\InvalidArgumentException;
+use Symfony\Component\Console\Exception\LogicException;
+use Symfony\Component\Console\Helper\HelperSet;
+use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputDefinition;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * Base class for all commands.
@@ -506,11 +506,11 @@ class Command
 
     /**
      * @param bool $hidden Whether or not the command should be hidden from the list of commands
-     *                     The default value will be true in SymfonyNew 6.0
+     *                     The default value will be true in Symfony 6.0
      *
      * @return $this
      *
-     * @final since SymfonyNew 5.1
+     * @final since Symfony 5.1
      */
     public function setHidden(bool $hidden /*= true*/)
     {

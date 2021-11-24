@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Translation\Command;
+namespace Symfony\Component\Translation\Command;
 
-use SymfonyNew\Component\Console\Command\Command;
-use SymfonyNew\Component\Console\Exception\RuntimeException;
-use SymfonyNew\Component\Console\Input\InputArgument;
-use SymfonyNew\Component\Console\Input\InputInterface;
-use SymfonyNew\Component\Console\Input\InputOption;
-use SymfonyNew\Component\Console\Output\OutputInterface;
-use SymfonyNew\Component\Console\Style\SymfonyNewStyle;
-use SymfonyNew\Component\Translation\Exception\InvalidArgumentException;
-use SymfonyNew\Component\Translation\Util\XliffUtils;
+use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Exception\RuntimeException;
+use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Style\SymfonyStyle;
+use Symfony\Component\Translation\Exception\InvalidArgumentException;
+use Symfony\Component\Translation\Util\XliffUtils;
 
 /**
  * Validates XLIFF files syntax and outputs encountered errors.
@@ -81,7 +81,7 @@ EOF
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $io = new SymfonyNewStyle($input, $output);
+        $io = new SymfonyStyle($input, $output);
         $filenames = (array) $input->getArgument('filename');
         $this->format = $input->getOption('format');
         $this->displayCorrectFiles = $output->isVerbose();
@@ -153,7 +153,7 @@ EOF
         return ['file' => $file, 'valid' => 0 === \count($errors), 'messages' => $errors];
     }
 
-    private function display(SymfonyNewStyle $io, array $files)
+    private function display(SymfonyStyle $io, array $files)
     {
         switch ($this->format) {
             case 'txt':
@@ -165,7 +165,7 @@ EOF
         }
     }
 
-    private function displayTxt(SymfonyNewStyle $io, array $filesInfo)
+    private function displayTxt(SymfonyStyle $io, array $filesInfo)
     {
         $countFiles = \count($filesInfo);
         $erroredFiles = 0;
@@ -192,7 +192,7 @@ EOF
         return min($erroredFiles, 1);
     }
 
-    private function displayJson(SymfonyNewStyle $io, array $filesInfo)
+    private function displayJson(SymfonyStyle $io, array $filesInfo)
     {
         $errors = 0;
 

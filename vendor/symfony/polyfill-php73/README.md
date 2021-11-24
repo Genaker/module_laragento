@@ -1,4 +1,4 @@
-SymfonyNew Polyfill / Php73
+Symfony Polyfill / Php73
 ========================
 
 This component provides functions added to PHP 7.3 core:

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Console\Command;
+namespace Symfony\Component\Console\Command;
 
-use SymfonyNew\Component\Console\Helper\DescriptorHelper;
-use SymfonyNew\Component\Console\Input\InputArgument;
-use SymfonyNew\Component\Console\Input\InputInterface;
-use SymfonyNew\Component\Console\Input\InputOption;
-use SymfonyNew\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Helper\DescriptorHelper;
+use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * HelpCommand displays the help for a given command.

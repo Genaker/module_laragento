@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Translation\DependencyInjection;
+namespace Symfony\Component\Translation\DependencyInjection;
 
-use SymfonyNew\Component\DependencyInjection\Compiler\CompilerPassInterface;
-use SymfonyNew\Component\DependencyInjection\ContainerBuilder;
-use SymfonyNew\Component\DependencyInjection\Exception\RuntimeException;
-use SymfonyNew\Component\DependencyInjection\Reference;
+use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
+use Symfony\Component\DependencyInjection\Exception\RuntimeException;
+use Symfony\Component\DependencyInjection\Reference;
 
 /**
  * Adds tagged translation.extractor services to translation extractor.

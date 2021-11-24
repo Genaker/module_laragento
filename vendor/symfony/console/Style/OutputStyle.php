@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Console\Style;
+namespace Symfony\Component\Console\Style;
 
-use SymfonyNew\Component\Console\Formatter\OutputFormatterInterface;
-use SymfonyNew\Component\Console\Helper\ProgressBar;
-use SymfonyNew\Component\Console\Output\ConsoleOutputInterface;
-use SymfonyNew\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Formatter\OutputFormatterInterface;
+use Symfony\Component\Console\Helper\ProgressBar;
+use Symfony\Component\Console\Output\ConsoleOutputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * Decorates output to add console style guide helpers.

@@ -1,4 +1,4 @@
-SymfonyNew Polyfill / Ctype
+Symfony Polyfill / Ctype
 ========================
 
 This component provides `ctype_*` functions to users who run php versions without the ctype extension.

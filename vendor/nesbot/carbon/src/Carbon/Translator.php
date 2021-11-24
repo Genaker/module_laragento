@@ -14,7 +14,7 @@ namespace Carbon;
 use Closure;
 use ReflectionException;
 use ReflectionFunction;
-use SymfonyNew\Component\Translation;
+use Symfony\Component\Translation;
 
 class Translator extends Translation\Translator
 {

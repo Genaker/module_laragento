@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Translation;
+namespace Symfony\Component\Translation;
 
-use SymfonyNew\Contracts\Translation\LocaleAwareInterface;
-use SymfonyNew\Contracts\Translation\TranslatorInterface;
-use SymfonyNew\Contracts\Translation\TranslatorTrait;
+use Symfony\Contracts\Translation\LocaleAwareInterface;
+use Symfony\Contracts\Translation\TranslatorInterface;
+use Symfony\Contracts\Translation\TranslatorTrait;
 
 /**
  * IdentityTranslator does not translate anything.

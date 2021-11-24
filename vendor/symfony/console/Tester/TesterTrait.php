@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Console\Tester;
+namespace Symfony\Component\Console\Tester;
 
-use SymfonyNew\Component\Console\Input\InputInterface;
-use SymfonyNew\Component\Console\Output\ConsoleOutput;
-use SymfonyNew\Component\Console\Output\OutputInterface;
-use SymfonyNew\Component\Console\Output\StreamOutput;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Output\ConsoleOutput;
+use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Output\StreamOutput;
 
 /**
  * @author Amrouche Hamza <hamza.simperfit@gmail.com>

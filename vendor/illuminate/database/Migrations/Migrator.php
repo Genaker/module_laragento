@@ -15,7 +15,7 @@ use IlluminateNew\Support\Arr;
 use IlluminateNew\Support\Collection;
 use IlluminateNew\Support\Str;
 use ReflectionClass;
-use SymfonyNew\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
 
 class Migrator
 {
@@ -64,7 +64,7 @@ class Migrator
     /**
      * The output interface implementation.
      *
-     * @var \SymfonyNew\Component\Console\Output\OutputInterface
+     * @var \Symfony\Component\Console\Output\OutputInterface
      */
     protected $output;
 
@@ -685,7 +685,7 @@ class Migrator
     /**
      * Set the output implementation that should be used by the console.
      *
-     * @param  \SymfonyNew\Component\Console\Output\OutputInterface  $output
+     * @param  \Symfony\Component\Console\Output\OutputInterface  $output
      * @return $this
      */
     public function setOutput(OutputInterface $output)

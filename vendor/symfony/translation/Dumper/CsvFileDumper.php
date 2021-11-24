@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Translation\Dumper;
+namespace Symfony\Component\Translation\Dumper;
 
-use SymfonyNew\Component\Translation\MessageCatalogue;
+use Symfony\Component\Translation\MessageCatalogue;
 
 /**
  * CsvFileDumper generates a csv formatted string representation of a message catalogue.

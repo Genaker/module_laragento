@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Translation\Util;
+namespace Symfony\Component\Translation\Util;
 
-use SymfonyNew\Component\Translation\Exception\InvalidArgumentException;
-use SymfonyNew\Component\Translation\Exception\InvalidResourceException;
+use Symfony\Component\Translation\Exception\InvalidArgumentException;
+use Symfony\Component\Translation\Exception\InvalidResourceException;
 
 /**
  * Provides some utility methods for XLIFF translation files, such as validating

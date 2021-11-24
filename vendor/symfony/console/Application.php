@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,45 +9,45 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Console;
+namespace Symfony\Component\Console;
 
-use SymfonyNew\Component\Console\Command\Command;
-use SymfonyNew\Component\Console\Command\HelpCommand;
-use SymfonyNew\Component\Console\Command\LazyCommand;
-use SymfonyNew\Component\Console\Command\ListCommand;
-use SymfonyNew\Component\Console\Command\SignalableCommandInterface;
-use SymfonyNew\Component\Console\CommandLoader\CommandLoaderInterface;
-use SymfonyNew\Component\Console\Event\ConsoleCommandEvent;
-use SymfonyNew\Component\Console\Event\ConsoleErrorEvent;
-use SymfonyNew\Component\Console\Event\ConsoleSignalEvent;
-use SymfonyNew\Component\Console\Event\ConsoleTerminateEvent;
-use SymfonyNew\Component\Console\Exception\CommandNotFoundException;
-use SymfonyNew\Component\Console\Exception\ExceptionInterface;
-use SymfonyNew\Component\Console\Exception\LogicException;
-use SymfonyNew\Component\Console\Exception\NamespaceNotFoundException;
-use SymfonyNew\Component\Console\Exception\RuntimeException;
-use SymfonyNew\Component\Console\Formatter\OutputFormatter;
-use SymfonyNew\Component\Console\Helper\DebugFormatterHelper;
-use SymfonyNew\Component\Console\Helper\FormatterHelper;
-use SymfonyNew\Component\Console\Helper\Helper;
-use SymfonyNew\Component\Console\Helper\HelperSet;
-use SymfonyNew\Component\Console\Helper\ProcessHelper;
-use SymfonyNew\Component\Console\Helper\QuestionHelper;
-use SymfonyNew\Component\Console\Input\ArgvInput;
-use SymfonyNew\Component\Console\Input\ArrayInput;
-use SymfonyNew\Component\Console\Input\InputArgument;
-use SymfonyNew\Component\Console\Input\InputAwareInterface;
-use SymfonyNew\Component\Console\Input\InputDefinition;
-use SymfonyNew\Component\Console\Input\InputInterface;
-use SymfonyNew\Component\Console\Input\InputOption;
-use SymfonyNew\Component\Console\Output\ConsoleOutput;
-use SymfonyNew\Component\Console\Output\ConsoleOutputInterface;
-use SymfonyNew\Component\Console\Output\OutputInterface;
-use SymfonyNew\Component\Console\SignalRegistry\SignalRegistry;
-use SymfonyNew\Component\Console\Style\SymfonyNewStyle;
-use SymfonyNew\Component\ErrorHandler\ErrorHandler;
-use SymfonyNew\Contracts\EventDispatcher\EventDispatcherInterface;
-use SymfonyNew\Contracts\Service\ResetInterface;
+use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Command\HelpCommand;
+use Symfony\Component\Console\Command\LazyCommand;
+use Symfony\Component\Console\Command\ListCommand;
+use Symfony\Component\Console\Command\SignalableCommandInterface;
+use Symfony\Component\Console\CommandLoader\CommandLoaderInterface;
+use Symfony\Component\Console\Event\ConsoleCommandEvent;
+use Symfony\Component\Console\Event\ConsoleErrorEvent;
+use Symfony\Component\Console\Event\ConsoleSignalEvent;
+use Symfony\Component\Console\Event\ConsoleTerminateEvent;
+use Symfony\Component\Console\Exception\CommandNotFoundException;
+use Symfony\Component\Console\Exception\ExceptionInterface;
+use Symfony\Component\Console\Exception\LogicException;
+use Symfony\Component\Console\Exception\NamespaceNotFoundException;
+use Symfony\Component\Console\Exception\RuntimeException;
+use Symfony\Component\Console\Formatter\OutputFormatter;
+use Symfony\Component\Console\Helper\DebugFormatterHelper;
+use Symfony\Component\Console\Helper\FormatterHelper;
+use Symfony\Component\Console\Helper\Helper;
+use Symfony\Component\Console\Helper\HelperSet;
+use Symfony\Component\Console\Helper\ProcessHelper;
+use Symfony\Component\Console\Helper\QuestionHelper;
+use Symfony\Component\Console\Input\ArgvInput;
+use Symfony\Component\Console\Input\ArrayInput;
+use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputAwareInterface;
+use Symfony\Component\Console\Input\InputDefinition;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Output\ConsoleOutput;
+use Symfony\Component\Console\Output\ConsoleOutputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\SignalRegistry\SignalRegistry;
+use Symfony\Component\Console\Style\SymfonyStyle;
+use Symfony\Component\ErrorHandler\ErrorHandler;
+use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
+use Symfony\Contracts\Service\ResetInterface;
 
 /**
  * An Application is the container for a collection of commands.
@@ -271,7 +271,7 @@ class Application implements ResetInterface
 
             $alternative = $alternatives[0];
 
-            $style = new SymfonyNewStyle($input, $output);
+            $style = new SymfonyStyle($input, $output);
             $style->block(sprintf("\nCommand \"%s\" is not defined.\n", $name), null, 'error');
             if (!$style->confirm(sprintf('Do you want to run "%s" instead? ', $alternative), false)) {
                 if (null !== $this->dispatcher) {
@@ -1040,7 +1040,7 @@ class Application implements ResetInterface
             new InputOption('--quiet', '-q', InputOption::VALUE_NONE, 'Do not output any message'),
             new InputOption('--verbose', '-v|vv|vvv', InputOption::VALUE_NONE, 'Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug'),
             new InputOption('--version', '-V', InputOption::VALUE_NONE, 'Display this application version'),
-            new InputOption('--ansi', '', InputOption::VALUE_NEGATABLE, 'Force (or disable --no-ansi) ANSI output', false),
+            new InputOption('--ansi', '', InputOption::VALUE_NEGATABLE, 'Force (or disable --no-ansi) ANSI output', null),
             new InputOption('--no-interaction', '-n', InputOption::VALUE_NONE, 'Do not ask any interactive question'),
         ]);
     }

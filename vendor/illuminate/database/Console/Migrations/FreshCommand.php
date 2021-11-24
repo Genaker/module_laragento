@@ -6,7 +6,7 @@ use IlluminateNew\Console\Command;
 use IlluminateNew\Console\ConfirmableTrait;
 use IlluminateNew\Contracts\Events\Dispatcher;
 use IlluminateNew\Database\Events\DatabaseRefreshed;
-use SymfonyNew\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Input\InputOption;
 
 class FreshCommand extends Command
 {

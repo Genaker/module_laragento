@@ -11,7 +11,7 @@
             "email": "p@tchwork.com"
         },
         {
-            "name": "SymfonyNew Community",
+            "name": "Symfony Community",
             "homepage": "https://symfony.com/contributors"
         }
     ],
@@ -22,12 +22,12 @@
         "symfony/translation-implementation": ""
     },
     "autoload": {
-        "psr-4": { "SymfonyNew\\Contracts\\Translation\\": "" }
+        "psr-4": { "Symfony\\Contracts\\Translation\\": "" }
     },
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
-            "dev-main": "2.4-dev"
+            "dev-main": "2.5-dev"
         },
         "thanks": {
             "name": "symfony/contracts",

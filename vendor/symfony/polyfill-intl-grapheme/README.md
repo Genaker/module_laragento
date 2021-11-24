@@ -1,4 +1,4 @@
-SymfonyNew Polyfill / Intl: Grapheme
+Symfony Polyfill / Intl: Grapheme
 =================================
 
 This component provides a partial, native PHP implementation of the

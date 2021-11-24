@@ -1,4 +1,4 @@
-SymfonyNew Polyfill / Intl: Normalizer
+Symfony Polyfill / Intl: Normalizer
 ===================================
 
 This component provides a fallback implementation for the

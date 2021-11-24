@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Contracts\Translation;
+namespace Symfony\Contracts\Translation;
 
 interface LocaleAwareInterface
 {
@@ -25,7 +25,7 @@ interface LocaleAwareInterface
     /**
      * Returns the current locale.
      *
-     * @return string The locale
+     * @return string
      */
     public function getLocale();
 }

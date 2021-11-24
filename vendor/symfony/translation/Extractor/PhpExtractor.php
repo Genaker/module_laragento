@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Translation\Extractor;
+namespace Symfony\Component\Translation\Extractor;
 
-use SymfonyNew\Component\Finder\Finder;
-use SymfonyNew\Component\Translation\MessageCatalogue;
+use Symfony\Component\Finder\Finder;
+use Symfony\Component\Translation\MessageCatalogue;
 
 /**
  * PhpExtractor extracts translation messages from a PHP template.
@@ -73,7 +73,7 @@ class PhpExtractor extends AbstractFileExtractor implements ExtractorInterface
         [
             'new',
             '\\',
-            'SymfonyNew',
+            'Symfony',
             '\\',
             'Component',
             '\\',
@@ -89,7 +89,7 @@ class PhpExtractor extends AbstractFileExtractor implements ExtractorInterface
         ],
         [
             'new',
-            '\SymfonyNew\Component\Translation\TranslatableMessage',
+            '\Symfony\Component\Translation\TranslatableMessage',
             '(',
             self::MESSAGE_TOKEN,
             ',',
@@ -100,7 +100,7 @@ class PhpExtractor extends AbstractFileExtractor implements ExtractorInterface
         [
             'new',
             '\\',
-            'SymfonyNew',
+            'Symfony',
             '\\',
             'Component',
             '\\',
@@ -112,7 +112,7 @@ class PhpExtractor extends AbstractFileExtractor implements ExtractorInterface
         ],
         [
             'new',
-            '\SymfonyNew\Component\Translation\TranslatableMessage',
+            '\Symfony\Component\Translation\TranslatableMessage',
             '(',
             self::MESSAGE_TOKEN,
         ],

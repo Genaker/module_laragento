@@ -5,7 +5,7 @@ namespace IlluminateNew\Support;
 /**
  * ProcessUtils is a bunch of utility methods.
  *
- * This class was originally copied from SymfonyNew 3.
+ * This class was originally copied from Symfony 3.
  */
 class ProcessUtils
 {

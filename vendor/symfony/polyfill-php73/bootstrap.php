@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-use SymfonyNew\Polyfill\Php73 as p;
+use Symfony\Polyfill\Php73 as p;
 
 if (\PHP_VERSION_ID >= 70300) {
     return;

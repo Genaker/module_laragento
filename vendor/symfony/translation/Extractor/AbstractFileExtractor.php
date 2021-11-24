@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Translation\Extractor;
+namespace Symfony\Component\Translation\Extractor;
 
-use SymfonyNew\Component\Translation\Exception\InvalidArgumentException;
+use Symfony\Component\Translation\Exception\InvalidArgumentException;
 
 /**
  * Base class used by classes that extract translation messages from files.

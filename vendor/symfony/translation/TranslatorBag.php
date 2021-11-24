@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Translation;
+namespace Symfony\Component\Translation;
 
-use SymfonyNew\Component\Translation\Catalogue\AbstractOperation;
-use SymfonyNew\Component\Translation\Catalogue\TargetOperation;
+use Symfony\Component\Translation\Catalogue\AbstractOperation;
+use Symfony\Component\Translation\Catalogue\TargetOperation;
 
 final class TranslatorBag implements TranslatorBagInterface
 {

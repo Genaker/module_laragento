@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,21 +9,21 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Console\Helper;
+namespace Symfony\Component\Console\Helper;
 
-use SymfonyNew\Component\Console\Formatter\OutputFormatter;
-use SymfonyNew\Component\Console\Output\OutputInterface;
-use SymfonyNew\Component\Console\Question\ChoiceQuestion;
-use SymfonyNew\Component\Console\Question\ConfirmationQuestion;
-use SymfonyNew\Component\Console\Question\Question;
-use SymfonyNew\Component\Console\Style\SymfonyNewStyle;
+use Symfony\Component\Console\Formatter\OutputFormatter;
+use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Question\ChoiceQuestion;
+use Symfony\Component\Console\Question\ConfirmationQuestion;
+use Symfony\Component\Console\Question\Question;
+use Symfony\Component\Console\Style\SymfonyStyle;
 
 /**
- * SymfonyNew Style Guide compliant question helper.
+ * Symfony Style Guide compliant question helper.
  *
  * @author Kevin Bond <kevinbond@gmail.com>
  */
-class SymfonyNewQuestionHelper extends QuestionHelper
+class SymfonyQuestionHelper extends QuestionHelper
 {
     /**
      * {@inheritdoc}
@@ -88,7 +88,7 @@ class SymfonyNewQuestionHelper extends QuestionHelper
      */
     protected function writeError(OutputInterface $output, \Exception $error)
     {
-        if ($output instanceof SymfonyNewStyle) {
+        if ($output instanceof SymfonyStyle) {
             $output->newLine();
             $output->error($error->getMessage());
 

@@ -1,4 +1,4 @@
-SymfonyNew Polyfill / Php80
+Symfony Polyfill / Php80
 ========================
 
 This component provides features added to PHP 8.0 core:

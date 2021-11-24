@@ -4,7 +4,7 @@ namespace IlluminateNew\Database\Console\Migrations;
 
 use IlluminateNew\Console\ConfirmableTrait;
 use IlluminateNew\Database\Migrations\Migrator;
-use SymfonyNew\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Input\InputOption;
 
 class ResetCommand extends BaseCommand
 {

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Translation\Loader;
+namespace Symfony\Component\Translation\Loader;
 
-use SymfonyNew\Component\Config\Resource\FileResource;
-use SymfonyNew\Component\Config\Util\XmlUtils;
-use SymfonyNew\Component\Translation\Exception\InvalidResourceException;
-use SymfonyNew\Component\Translation\Exception\NotFoundResourceException;
-use SymfonyNew\Component\Translation\Exception\RuntimeException;
-use SymfonyNew\Component\Translation\MessageCatalogue;
+use Symfony\Component\Config\Resource\FileResource;
+use Symfony\Component\Config\Util\XmlUtils;
+use Symfony\Component\Translation\Exception\InvalidResourceException;
+use Symfony\Component\Translation\Exception\NotFoundResourceException;
+use Symfony\Component\Translation\Exception\RuntimeException;
+use Symfony\Component\Translation\MessageCatalogue;
 
 /**
  * QtFileLoader loads translations from QT Translations XML files.
@@ -31,7 +31,7 @@ class QtFileLoader implements LoaderInterface
     public function load($resource, string $locale, string $domain = 'messages')
     {
         if (!class_exists(XmlUtils::class)) {
-            throw new RuntimeException('Loading translations from the QT format requires the SymfonyNew Config component.');
+            throw new RuntimeException('Loading translations from the QT format requires the Symfony Config component.');
         }
 
         if (!stream_is_local($resource)) {

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the SymfonyNew package.
+ * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace SymfonyNew\Component\Translation\Formatter;
+namespace Symfony\Component\Translation\Formatter;
 
-use SymfonyNew\Component\Translation\IdentityTranslator;
-use SymfonyNew\Contracts\Translation\TranslatorInterface;
+use Symfony\Component\Translation\IdentityTranslator;
+use Symfony\Contracts\Translation\TranslatorInterface;
 
 // Help opcache.preload discover always-needed symbols
 class_exists(IntlFormatter::class);
