@@ -1,7 +1,7 @@
 {
     "name": "symfony/polyfill-intl-grapheme",
     "type": "library",
-    "description": "Symfony polyfill for intl's grapheme_* functions",
+    "description": "SymfonyNew polyfill for intl's grapheme_* functions",
     "keywords": ["polyfill", "shim", "compatibility", "portable", "intl", "grapheme"],
     "homepage": "https://symfony.com",
     "license": "MIT",
@@ -11,7 +11,7 @@
             "email": "p@tchwork.com"
         },
         {
-            "name": "Symfony Community",
+            "name": "SymfonyNew Community",
             "homepage": "https://symfony.com/contributors"
         }
     ],
@@ -19,7 +19,7 @@
         "php": ">=7.1"
     },
     "autoload": {
-        "psr-4": { "Symfony\\Polyfill\\Intl\\Grapheme\\": "" },
+        "psr-4": { "SymfonyNew\\Polyfill\\Intl\\Grapheme\\": "" },
         "files": [ "bootstrap.php" ]
     },
     "suggest": {

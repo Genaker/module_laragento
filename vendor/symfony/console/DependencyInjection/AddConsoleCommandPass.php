@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Console\DependencyInjection;
+namespace SymfonyNew\Component\Console\DependencyInjection;
 
-use Symfony\Component\Console\Command\Command;
-use Symfony\Component\Console\Command\LazyCommand;
-use Symfony\Component\Console\CommandLoader\ContainerCommandLoader;
-use Symfony\Component\DependencyInjection\Argument\ServiceClosureArgument;
-use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
-use Symfony\Component\DependencyInjection\Compiler\ServiceLocatorTagPass;
-use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Symfony\Component\DependencyInjection\Exception\InvalidArgumentException;
-use Symfony\Component\DependencyInjection\Reference;
-use Symfony\Component\DependencyInjection\TypedReference;
+use SymfonyNew\Component\Console\Command\Command;
+use SymfonyNew\Component\Console\Command\LazyCommand;
+use SymfonyNew\Component\Console\CommandLoader\ContainerCommandLoader;
+use SymfonyNew\Component\DependencyInjection\Argument\ServiceClosureArgument;
+use SymfonyNew\Component\DependencyInjection\Compiler\CompilerPassInterface;
+use SymfonyNew\Component\DependencyInjection\Compiler\ServiceLocatorTagPass;
+use SymfonyNew\Component\DependencyInjection\ContainerBuilder;
+use SymfonyNew\Component\DependencyInjection\Exception\InvalidArgumentException;
+use SymfonyNew\Component\DependencyInjection\Reference;
+use SymfonyNew\Component\DependencyInjection\TypedReference;
 
 /**
  * Registers console commands.

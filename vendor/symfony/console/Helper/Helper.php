@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Console\Helper;
+namespace SymfonyNew\Component\Console\Helper;
 
-use Symfony\Component\Console\Formatter\OutputFormatterInterface;
-use Symfony\Component\String\UnicodeString;
+use SymfonyNew\Component\Console\Formatter\OutputFormatterInterface;
+use SymfonyNew\Component\String\UnicodeString;
 
 /**
  * Helper is the base class for all helper classes.
@@ -42,13 +42,13 @@ abstract class Helper implements HelperInterface
     /**
      * Returns the length of a string, using mb_strwidth if it is available.
      *
-     * @deprecated since Symfony 5.3
+     * @deprecated since SymfonyNew 5.3
      *
      * @return int The length of the string
      */
     public static function strlen(?string $string)
     {
-        trigger_deprecation('symfony/console', '5.3', 'Method "%s()" is deprecated and will be removed in Symfony 6.0. Use Helper::width() or Helper::length() instead.', __METHOD__);
+        trigger_deprecation('symfony/console', '5.3', 'Method "%s()" is deprecated and will be removed in SymfonyNew 6.0. Use Helper::width() or Helper::length() instead.', __METHOD__);
 
         return self::width($string);
     }
@@ -154,11 +154,11 @@ abstract class Helper implements HelperInterface
     }
 
     /**
-     * @deprecated since Symfony 5.3
+     * @deprecated since SymfonyNew 5.3
      */
     public static function strlenWithoutDecoration(OutputFormatterInterface $formatter, ?string $string)
     {
-        trigger_deprecation('symfony/console', '5.3', 'Method "%s()" is deprecated and will be removed in Symfony 6.0. Use Helper::removeDecoration() instead.', __METHOD__);
+        trigger_deprecation('symfony/console', '5.3', 'Method "%s()" is deprecated and will be removed in SymfonyNew 6.0. Use Helper::removeDecoration() instead.', __METHOD__);
 
         return self::width(self::removeDecoration($formatter, $string));
     }

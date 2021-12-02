@@ -8,7 +8,7 @@ use IlluminateNew\Database\Eloquent\MassPrunable;
 use IlluminateNew\Database\Eloquent\Prunable;
 use IlluminateNew\Database\Events\ModelsPruned;
 use IlluminateNew\Support\Str;
-use Symfony\Component\Finder\Finder;
+use SymfonyNew\Component\Finder\Finder;
 
 class PruneCommand extends Command
 {

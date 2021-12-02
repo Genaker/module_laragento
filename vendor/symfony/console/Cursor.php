@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Console;
+namespace SymfonyNew\Component\Console;
 
-use Symfony\Component\Console\Output\OutputInterface;
+use SymfonyNew\Component\Console\Output\OutputInterface;
 
 /**
  * @author Pierre du Plessis <pdples@gmail.com>

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,22 +9,22 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Console\Helper;
+namespace SymfonyNew\Component\Console\Helper;
 
-use Symfony\Component\Console\Cursor;
-use Symfony\Component\Console\Exception\MissingInputException;
-use Symfony\Component\Console\Exception\RuntimeException;
-use Symfony\Component\Console\Formatter\OutputFormatter;
-use Symfony\Component\Console\Formatter\OutputFormatterStyle;
-use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Input\StreamableInputInterface;
-use Symfony\Component\Console\Output\ConsoleOutputInterface;
-use Symfony\Component\Console\Output\ConsoleSectionOutput;
-use Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Component\Console\Question\ChoiceQuestion;
-use Symfony\Component\Console\Question\Question;
-use Symfony\Component\Console\Terminal;
-use function Symfony\Component\String\s;
+use SymfonyNew\Component\Console\Cursor;
+use SymfonyNew\Component\Console\Exception\MissingInputException;
+use SymfonyNew\Component\Console\Exception\RuntimeException;
+use SymfonyNew\Component\Console\Formatter\OutputFormatter;
+use SymfonyNew\Component\Console\Formatter\OutputFormatterStyle;
+use SymfonyNew\Component\Console\Input\InputInterface;
+use SymfonyNew\Component\Console\Input\StreamableInputInterface;
+use SymfonyNew\Component\Console\Output\ConsoleOutputInterface;
+use SymfonyNew\Component\Console\Output\ConsoleSectionOutput;
+use SymfonyNew\Component\Console\Output\OutputInterface;
+use SymfonyNew\Component\Console\Question\ChoiceQuestion;
+use SymfonyNew\Component\Console\Question\Question;
+use SymfonyNew\Component\Console\Terminal;
+use function SymfonyNew\Component\String\s;
 
 /**
  * The QuestionHelper class provides helpers to interact with the user.

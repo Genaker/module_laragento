@@ -28,17 +28,17 @@ class ComposerStaticInita452d418abdaa65e43ef16f0ee0b8e62
         ),
         'S' => 
         array (
-            'Symfony\\Polyfill\\Php80\\' => 23,
-            'Symfony\\Polyfill\\Php73\\' => 23,
-            'Symfony\\Polyfill\\Mbstring\\' => 26,
-            'Symfony\\Polyfill\\Intl\\Normalizer\\' => 33,
-            'Symfony\\Polyfill\\Intl\\Grapheme\\' => 31,
-            'Symfony\\Polyfill\\Ctype\\' => 23,
-            'Symfony\\Contracts\\Translation\\' => 30,
-            'Symfony\\Contracts\\Service\\' => 26,
-            'Symfony\\Component\\Translation\\' => 30,
-            'Symfony\\Component\\String\\' => 25,
-            'Symfony\\Component\\Console\\' => 26,
+            'SymfonyNew\\Polyfill\\Php80\\' => 23,
+            'SymfonyNew\\Polyfill\\Php73\\' => 23,
+            'SymfonyNew\\Polyfill\\Mbstring\\' => 26,
+            'SymfonyNew\\Polyfill\\Intl\\Normalizer\\' => 33,
+            'SymfonyNew\\Polyfill\\Intl\\Grapheme\\' => 31,
+            'SymfonyNew\\Polyfill\\Ctype\\' => 23,
+            'SymfonyNew\\Contracts\\Translation\\' => 30,
+            'SymfonyNew\\Contracts\\Service\\' => 26,
+            'SymfonyNew\\Component\\Translation\\' => 30,
+            'SymfonyNew\\Component\\String\\' => 25,
+            'SymfonyNew\\Component\\Console\\' => 26,
         ),
         'P' => 
         array (
@@ -71,47 +71,47 @@ class ComposerStaticInita452d418abdaa65e43ef16f0ee0b8e62
         array (
             0 => __DIR__ . '/..' . '/voku/portable-ascii/src/voku',
         ),
-        'Symfony\\Polyfill\\Php80\\' => 
+        'SymfonyNew\\Polyfill\\Php80\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
         ),
-        'Symfony\\Polyfill\\Php73\\' => 
+        'SymfonyNew\\Polyfill\\Php73\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php73',
         ),
-        'Symfony\\Polyfill\\Mbstring\\' => 
+        'SymfonyNew\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
-        'Symfony\\Polyfill\\Intl\\Normalizer\\' => 
+        'SymfonyNew\\Polyfill\\Intl\\Normalizer\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer',
         ),
-        'Symfony\\Polyfill\\Intl\\Grapheme\\' => 
+        'SymfonyNew\\Polyfill\\Intl\\Grapheme\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme',
         ),
-        'Symfony\\Polyfill\\Ctype\\' => 
+        'SymfonyNew\\Polyfill\\Ctype\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
-        'Symfony\\Contracts\\Translation\\' => 
+        'SymfonyNew\\Contracts\\Translation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/translation-contracts',
         ),
-        'Symfony\\Contracts\\Service\\' => 
+        'SymfonyNew\\Contracts\\Service\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/service-contracts',
         ),
-        'Symfony\\Component\\Translation\\' => 
+        'SymfonyNew\\Component\\Translation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
         ),
-        'Symfony\\Component\\String\\' => 
+        'SymfonyNew\\Component\\String\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/string',
         ),
-        'Symfony\\Component\\Console\\' => 
+        'SymfonyNew\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
         ),

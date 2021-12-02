@@ -11,7 +11,7 @@
             "email": "fabien@symfony.com"
         },
         {
-            "name": "Symfony Community",
+            "name": "SymfonyNew Community",
             "homepage": "https://symfony.com/contributors"
         }
     ],
@@ -51,7 +51,7 @@
     },
     "autoload": {
         "files": [ "Resources/functions.php" ],
-        "psr-4": { "Symfony\\Component\\Translation\\": "" },
+        "psr-4": { "SymfonyNew\\Component\\Translation\\": "" },
         "exclude-from-classmap": [
             "/Tests/"
         ]

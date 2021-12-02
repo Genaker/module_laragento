@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Contracts\Translation\Test;
+namespace SymfonyNew\Contracts\Translation\Test;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Contracts\Translation\TranslatorInterface;
-use Symfony\Contracts\Translation\TranslatorTrait;
+use SymfonyNew\Contracts\Translation\TranslatorInterface;
+use SymfonyNew\Contracts\Translation\TranslatorTrait;
 
 /**
  * Test should cover all languages mentioned on http://translate.sourceforge.net/wiki/l10n/pluralforms
@@ -120,8 +120,8 @@ class TranslatorTest extends TestCase
     public function getTransTests()
     {
         return [
-            ['Symfony is great!', 'Symfony is great!', []],
-            ['Symfony is awesome!', 'Symfony is %what%!', ['%what%' => 'awesome']],
+            ['SymfonyNew is great!', 'SymfonyNew is great!', []],
+            ['SymfonyNew is awesome!', 'SymfonyNew is %what%!', ['%what%' => 'awesome']],
         ];
     }
 

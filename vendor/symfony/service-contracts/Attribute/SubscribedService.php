@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Contracts\Service\Attribute;
+namespace SymfonyNew\Contracts\Service\Attribute;
 
-use Symfony\Contracts\Service\ServiceSubscriberTrait;
+use SymfonyNew\Contracts\Service\ServiceSubscriberTrait;
 
 /**
  * Use with {@see ServiceSubscriberTrait} to mark a method's return type

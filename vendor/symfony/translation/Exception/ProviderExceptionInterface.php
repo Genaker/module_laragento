@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Translation\Exception;
+namespace SymfonyNew\Component\Translation\Exception;
 
 /**
  * @author Fabien Potencier <fabien@symfony.com>
@@ -19,7 +19,7 @@ namespace Symfony\Component\Translation\Exception;
 interface ProviderExceptionInterface extends ExceptionInterface
 {
     /*
-     * Returns debug info coming from the Symfony\Contracts\HttpClient\ResponseInterface
+     * Returns debug info coming from the SymfonyNew\Contracts\HttpClient\ResponseInterface
      */
     public function getDebug(): string;
 }

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Translation\Reader;
+namespace SymfonyNew\Component\Translation\Reader;
 
-use Symfony\Component\Finder\Finder;
-use Symfony\Component\Translation\Loader\LoaderInterface;
-use Symfony\Component\Translation\MessageCatalogue;
+use SymfonyNew\Component\Finder\Finder;
+use SymfonyNew\Component\Translation\Loader\LoaderInterface;
+use SymfonyNew\Component\Translation\MessageCatalogue;
 
 /**
  * TranslationReader reads translation messages from translation files.

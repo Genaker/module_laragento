@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Console\Helper;
+namespace SymfonyNew\Component\Console\Helper;
 
-use Symfony\Component\Console\Descriptor\DescriptorInterface;
-use Symfony\Component\Console\Descriptor\JsonDescriptor;
-use Symfony\Component\Console\Descriptor\MarkdownDescriptor;
-use Symfony\Component\Console\Descriptor\TextDescriptor;
-use Symfony\Component\Console\Descriptor\XmlDescriptor;
-use Symfony\Component\Console\Exception\InvalidArgumentException;
-use Symfony\Component\Console\Output\OutputInterface;
+use SymfonyNew\Component\Console\Descriptor\DescriptorInterface;
+use SymfonyNew\Component\Console\Descriptor\JsonDescriptor;
+use SymfonyNew\Component\Console\Descriptor\MarkdownDescriptor;
+use SymfonyNew\Component\Console\Descriptor\TextDescriptor;
+use SymfonyNew\Component\Console\Descriptor\XmlDescriptor;
+use SymfonyNew\Component\Console\Exception\InvalidArgumentException;
+use SymfonyNew\Component\Console\Output\OutputInterface;
 
 /**
  * This class adds helper method to describe objects in various formats.

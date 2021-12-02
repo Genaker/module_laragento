@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Console\Descriptor;
+namespace SymfonyNew\Component\Console\Descriptor;
 
-use Symfony\Component\Console\Application;
-use Symfony\Component\Console\Command\Command;
-use Symfony\Component\Console\Exception\CommandNotFoundException;
+use SymfonyNew\Component\Console\Application;
+use SymfonyNew\Component\Console\Command\Command;
+use SymfonyNew\Component\Console\Exception\CommandNotFoundException;
 
 /**
  * @author Jean-François Simon <jeanfrancois.simon@sensiolabs.com>

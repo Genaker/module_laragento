@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Translation;
+namespace SymfonyNew\Component\Translation;
 
-use Symfony\Component\HttpKernel\CacheWarmer\WarmableInterface;
-use Symfony\Component\Translation\Exception\InvalidArgumentException;
-use Symfony\Contracts\Translation\LocaleAwareInterface;
-use Symfony\Contracts\Translation\TranslatorInterface;
+use SymfonyNew\Component\HttpKernel\CacheWarmer\WarmableInterface;
+use SymfonyNew\Component\Translation\Exception\InvalidArgumentException;
+use SymfonyNew\Contracts\Translation\LocaleAwareInterface;
+use SymfonyNew\Contracts\Translation\TranslatorInterface;
 
 /**
  * @author Abdellatif Ait boudad <a.aitboudad@gmail.com>

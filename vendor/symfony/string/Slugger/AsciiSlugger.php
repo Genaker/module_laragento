@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\String\Slugger;
+namespace SymfonyNew\Component\String\Slugger;
 
-use Symfony\Component\String\AbstractUnicodeString;
-use Symfony\Component\String\UnicodeString;
-use Symfony\Contracts\Translation\LocaleAwareInterface;
+use SymfonyNew\Component\String\AbstractUnicodeString;
+use SymfonyNew\Component\String\UnicodeString;
+use SymfonyNew\Contracts\Translation\LocaleAwareInterface;
 
 if (!interface_exists(LocaleAwareInterface::class)) {
-    throw new \LogicException('You cannot use the "Symfony\Component\String\Slugger\AsciiSlugger" as the "symfony/translation-contracts" package is not installed. Try running "composer require symfony/translation-contracts".');
+    throw new \LogicException('You cannot use the "SymfonyNew\Component\String\Slugger\AsciiSlugger" as the "symfony/translation-contracts" package is not installed. Try running "composer require symfony/translation-contracts".');
 }
 
 /**

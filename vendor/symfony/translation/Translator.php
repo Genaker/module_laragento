@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,20 +9,20 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Translation;
+namespace SymfonyNew\Component\Translation;
 
-use Symfony\Component\Config\ConfigCacheFactory;
-use Symfony\Component\Config\ConfigCacheFactoryInterface;
-use Symfony\Component\Config\ConfigCacheInterface;
-use Symfony\Component\Translation\Exception\InvalidArgumentException;
-use Symfony\Component\Translation\Exception\NotFoundResourceException;
-use Symfony\Component\Translation\Exception\RuntimeException;
-use Symfony\Component\Translation\Formatter\IntlFormatterInterface;
-use Symfony\Component\Translation\Formatter\MessageFormatter;
-use Symfony\Component\Translation\Formatter\MessageFormatterInterface;
-use Symfony\Component\Translation\Loader\LoaderInterface;
-use Symfony\Contracts\Translation\LocaleAwareInterface;
-use Symfony\Contracts\Translation\TranslatorInterface;
+use SymfonyNew\Component\Config\ConfigCacheFactory;
+use SymfonyNew\Component\Config\ConfigCacheFactoryInterface;
+use SymfonyNew\Component\Config\ConfigCacheInterface;
+use SymfonyNew\Component\Translation\Exception\InvalidArgumentException;
+use SymfonyNew\Component\Translation\Exception\NotFoundResourceException;
+use SymfonyNew\Component\Translation\Exception\RuntimeException;
+use SymfonyNew\Component\Translation\Formatter\IntlFormatterInterface;
+use SymfonyNew\Component\Translation\Formatter\MessageFormatter;
+use SymfonyNew\Component\Translation\Formatter\MessageFormatterInterface;
+use SymfonyNew\Component\Translation\Loader\LoaderInterface;
+use SymfonyNew\Contracts\Translation\LocaleAwareInterface;
+use SymfonyNew\Contracts\Translation\TranslatorInterface;
 
 // Help opcache.preload discover always-needed symbols
 class_exists(MessageCatalogue::class);
@@ -314,7 +314,7 @@ class Translator implements TranslatorInterface, TranslatorBagInterface, LocaleA
         $content = sprintf(<<<EOF
 <?php
 
-use Symfony\Component\Translation\MessageCatalogue;
+use SymfonyNew\Component\Translation\MessageCatalogue;
 
 \$catalogue = new MessageCatalogue('%s', %s);
 

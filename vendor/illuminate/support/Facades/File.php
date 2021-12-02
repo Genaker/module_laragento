@@ -3,8 +3,8 @@
 namespace IlluminateNew\Support\Facades;
 
 /**
- * @method static \Symfony\Component\Finder\SplFileInfo[] allFiles(string $directory, bool $hidden = false)
- * @method static \Symfony\Component\Finder\SplFileInfo[] files(string $directory, bool $hidden = false)
+ * @method static \SymfonyNew\Component\Finder\SplFileInfo[] allFiles(string $directory, bool $hidden = false)
+ * @method static \SymfonyNew\Component\Finder\SplFileInfo[] files(string $directory, bool $hidden = false)
  * @method static array directories(string $directory)
  * @method static array glob(string $pattern, int $flags = 0)
  * @method static bool cleanDirectory(string $directory)

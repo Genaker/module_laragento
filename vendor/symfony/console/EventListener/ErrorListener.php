@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Console\EventListener;
+namespace SymfonyNew\Component\Console\EventListener;
 
 use Psr\Log\LoggerInterface;
-use Symfony\Component\Console\ConsoleEvents;
-use Symfony\Component\Console\Event\ConsoleErrorEvent;
-use Symfony\Component\Console\Event\ConsoleEvent;
-use Symfony\Component\Console\Event\ConsoleTerminateEvent;
-use Symfony\Component\EventDispatcher\EventSubscriberInterface;
+use SymfonyNew\Component\Console\ConsoleEvents;
+use SymfonyNew\Component\Console\Event\ConsoleErrorEvent;
+use SymfonyNew\Component\Console\Event\ConsoleEvent;
+use SymfonyNew\Component\Console\Event\ConsoleTerminateEvent;
+use SymfonyNew\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
  * @author James Halsall <james.t.halsall@googlemail.com>

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Console\Formatter;
+namespace SymfonyNew\Component\Console\Formatter;
 
-use Symfony\Component\Console\Exception\InvalidArgumentException;
-use Symfony\Contracts\Service\ResetInterface;
+use SymfonyNew\Component\Console\Exception\InvalidArgumentException;
+use SymfonyNew\Contracts\Service\ResetInterface;
 
 /**
  * @author Jean-François Simon <contact@jfsimon.fr>

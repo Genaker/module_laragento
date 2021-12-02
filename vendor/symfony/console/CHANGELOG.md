@@ -30,7 +30,7 @@ CHANGELOG
 5.1.0
 -----
 
- * `Command::setHidden()` is final since Symfony 5.1
+ * `Command::setHidden()` is final since SymfonyNew 5.1
  * Add `SingleCommandApplication`
  * Add `Cursor` class
 
@@ -44,8 +44,8 @@ CHANGELOG
  * removed `TableStyle::setVerticalBorderChar()` method in favor of `TableStyle::setVerticalBorderChars()`
  * removed `TableStyle::getVerticalBorderChar()` method in favor of `TableStyle::getBorderChars()`
  * removed support for returning `null` from `Command::execute()`, return `0` instead
- * `ProcessHelper::run()` accepts only `array|Symfony\Component\Process\Process` for its `command` argument
- * `Application::setDispatcher` accepts only `Symfony\Contracts\EventDispatcher\EventDispatcherInterface`
+ * `ProcessHelper::run()` accepts only `array|SymfonyNew\Component\Process\Process` for its `command` argument
+ * `Application::setDispatcher` accepts only `SymfonyNew\Contracts\EventDispatcher\EventDispatcherInterface`
    for its `dispatcher` argument
  * renamed `Application::renderException()` and `Application::doRenderException()`
    to `renderThrowable()` and `doRenderThrowable()` respectively.
@@ -123,7 +123,7 @@ CHANGELOG
  * deprecated console.exception event in favor of console.error
  * added ability to handle `CommandNotFoundException` through the
    `console.error` event
- * deprecated default validation in `SymfonyQuestionHelper::ask`
+ * deprecated default validation in `SymfonyNewQuestionHelper::ask`
 
 3.2.0
 ------
@@ -205,7 +205,7 @@ CHANGELOG
  * made the defaults (helper set, commands, input definition) in Application
    more easily customizable
  * added support for the shell even if readline is not available
- * added support for process isolation in Symfony shell via
+ * added support for process isolation in SymfonyNew shell via
    `--process-isolation` switch
  * added support for `--`, which disables options parsing after that point
    (tokens will be parsed as arguments)

@@ -56,7 +56,7 @@ CHANGELOG
  * Started using ICU parent locales as fallback locales.
  * allow using the ICU message format using domains with the "+intl-icu" suffix
  * deprecated `Translator::transChoice()` in favor of using `Translator::trans()` with a `%count%` parameter
- * deprecated `TranslatorInterface` in favor of `Symfony\Contracts\Translation\TranslatorInterface`
+ * deprecated `TranslatorInterface` in favor of `SymfonyNew\Contracts\Translation\TranslatorInterface`
  * deprecated `MessageSelector`, `Interval` and `PluralizationRules`; use `IdentityTranslator` instead
  * Added `IntlFormatter` and `IntlFormatterInterface`
  * added support for multiple files and directories in `XliffLintCommand`
@@ -119,7 +119,7 @@ CHANGELOG
  * added support for XLIFF target and tool attributes.
  * added message parameters to DataCollectorTranslator.
  * [DEPRECATION] The `DiffOperation` class has been deprecated and
-   will be removed in Symfony 3.0, since its operation has nothing to do with 'diff',
+   will be removed in SymfonyNew 3.0, since its operation has nothing to do with 'diff',
    so the class name is misleading. The `TargetOperation` class should be used for
    this use-case instead.
 
@@ -155,8 +155,8 @@ CHANGELOG
 
  * QtTranslationsLoader class renamed to QtFileLoader. QtTranslationsLoader is deprecated and will be removed in 2.3.
  * [BC BREAK] uniformized the exception thrown by the load() method when an error occurs. The load() method now
-   throws Symfony\Component\Translation\Exception\NotFoundResourceException when a resource cannot be found
-   and Symfony\Component\Translation\Exception\InvalidResourceException when a resource is invalid.
+   throws SymfonyNew\Component\Translation\Exception\NotFoundResourceException when a resource cannot be found
+   and SymfonyNew\Component\Translation\Exception\InvalidResourceException when a resource is invalid.
  * changed the exception class thrown by some load() methods from \RuntimeException to \InvalidArgumentException
    (IcuDatFileLoader, IcuResFileLoader and QtFileLoader)
 

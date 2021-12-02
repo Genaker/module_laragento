@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-use Symfony\Polyfill\Ctype as p;
+use SymfonyNew\Polyfill\Ctype as p;
 
 if (\PHP_VERSION_ID >= 80000) {
     return require __DIR__.'/bootstrap80.php';

@@ -11,8 +11,8 @@ $ composer require symfony/translation
 ```
 
 ```php
-use Symfony\Component\Translation\Translator;
-use Symfony\Component\Translation\Loader\ArrayLoader;
+use SymfonyNew\Component\Translation\Translator;
+use SymfonyNew\Component\Translation\Loader\ArrayLoader;
 
 $translator = new Translator('fr_FR');
 $translator->addLoader('array', new ArrayLoader());
@@ -30,4 +30,4 @@ Resources
  * [Contributing](https://symfony.com/doc/current/contributing/index.html)
  * [Report issues](https://github.com/symfony/symfony/issues) and
    [send Pull Requests](https://github.com/symfony/symfony/pulls)
-   in the [main Symfony repository](https://github.com/symfony/symfony)
+   in the [main SymfonyNew repository](https://github.com/symfony/symfony)

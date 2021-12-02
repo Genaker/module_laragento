@@ -1,7 +1,7 @@
 {
     "name": "symfony/polyfill-php73",
     "type": "library",
-    "description": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+    "description": "SymfonyNew polyfill backporting some PHP 7.3+ features to lower PHP versions",
     "keywords": ["polyfill", "shim", "compatibility", "portable"],
     "homepage": "https://symfony.com",
     "license": "MIT",
@@ -11,7 +11,7 @@
             "email": "p@tchwork.com"
         },
         {
-            "name": "Symfony Community",
+            "name": "SymfonyNew Community",
             "homepage": "https://symfony.com/contributors"
         }
     ],
@@ -19,7 +19,7 @@
         "php": ">=7.1"
     },
     "autoload": {
-        "psr-4": { "Symfony\\Polyfill\\Php73\\": "" },
+        "psr-4": { "SymfonyNew\\Polyfill\\Php73\\": "" },
         "files": [ "bootstrap.php" ],
         "classmap": [ "Resources/stubs" ]
     },

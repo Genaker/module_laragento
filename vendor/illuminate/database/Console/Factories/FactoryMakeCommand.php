@@ -4,7 +4,7 @@ namespace IlluminateNew\Database\Console\Factories;
 
 use IlluminateNew\Console\GeneratorCommand;
 use IlluminateNew\Support\Str;
-use Symfony\Component\Console\Input\InputOption;
+use SymfonyNew\Component\Console\Input\InputOption;
 
 class FactoryMakeCommand extends GeneratorCommand
 {

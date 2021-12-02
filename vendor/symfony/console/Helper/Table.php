@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Console\Helper;
+namespace SymfonyNew\Component\Console\Helper;
 
-use Symfony\Component\Console\Exception\InvalidArgumentException;
-use Symfony\Component\Console\Exception\RuntimeException;
-use Symfony\Component\Console\Formatter\OutputFormatter;
-use Symfony\Component\Console\Formatter\WrappableOutputFormatterInterface;
-use Symfony\Component\Console\Output\ConsoleSectionOutput;
-use Symfony\Component\Console\Output\OutputInterface;
+use SymfonyNew\Component\Console\Exception\InvalidArgumentException;
+use SymfonyNew\Component\Console\Exception\RuntimeException;
+use SymfonyNew\Component\Console\Formatter\OutputFormatter;
+use SymfonyNew\Component\Console\Formatter\WrappableOutputFormatterInterface;
+use SymfonyNew\Component\Console\Output\ConsoleSectionOutput;
+use SymfonyNew\Component\Console\Output\OutputInterface;
 
 /**
  * Provides helpers to display a table.

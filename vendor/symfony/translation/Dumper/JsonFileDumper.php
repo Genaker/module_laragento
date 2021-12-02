@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Translation\Dumper;
+namespace SymfonyNew\Component\Translation\Dumper;
 
-use Symfony\Component\Translation\MessageCatalogue;
+use SymfonyNew\Component\Translation\MessageCatalogue;
 
 /**
  * JsonFileDumper generates an json formatted string representation of a message catalogue.

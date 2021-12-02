@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Translation\Provider;
+namespace SymfonyNew\Component\Translation\Provider;
 
-use Symfony\Component\Translation\Exception\InvalidArgumentException;
+use SymfonyNew\Component\Translation\Exception\InvalidArgumentException;
 
 /**
  * @author Mathieu Santostefano <msantostefano@protonmail.com>

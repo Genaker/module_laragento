@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Console\Helper;
+namespace SymfonyNew\Component\Console\Helper;
 
-use Symfony\Component\Console\Command\Command;
-use Symfony\Component\Console\Exception\InvalidArgumentException;
+use SymfonyNew\Component\Console\Command\Command;
+use SymfonyNew\Component\Console\Exception\InvalidArgumentException;
 
 /**
  * HelperSet represents a set of helpers to be used with a command.

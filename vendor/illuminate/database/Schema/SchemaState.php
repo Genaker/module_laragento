@@ -4,7 +4,7 @@ namespace IlluminateNew\Database\Schema;
 
 use IlluminateNew\Database\Connection;
 use IlluminateNew\Filesystem\Filesystem;
-use Symfony\Component\Process\Process;
+use SymfonyNew\Component\Process\Process;
 
 abstract class SchemaState
 {
@@ -87,7 +87,7 @@ abstract class SchemaState
      * Create a new process instance.
      *
      * @param  array  $arguments
-     * @return \Symfony\Component\Process\Process
+     * @return \SymfonyNew\Component\Process\Process
      */
     public function makeProcess(...$arguments)
     {

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Console\Tester;
+namespace SymfonyNew\Component\Console\Tester;
 
-use Symfony\Component\Console\Application;
-use Symfony\Component\Console\Input\ArrayInput;
+use SymfonyNew\Component\Console\Application;
+use SymfonyNew\Component\Console\Input\ArrayInput;
 
 /**
  * Eases the testing of console applications.

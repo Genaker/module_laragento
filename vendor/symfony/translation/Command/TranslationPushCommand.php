@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Translation\Command;
+namespace SymfonyNew\Component\Translation\Command;
 
-use Symfony\Component\Console\Command\Command;
-use Symfony\Component\Console\Exception\InvalidArgumentException;
-use Symfony\Component\Console\Input\InputArgument;
-use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Input\InputOption;
-use Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Component\Console\Style\SymfonyStyle;
-use Symfony\Component\Translation\Provider\TranslationProviderCollection;
-use Symfony\Component\Translation\Reader\TranslationReaderInterface;
-use Symfony\Component\Translation\TranslatorBag;
+use SymfonyNew\Component\Console\Command\Command;
+use SymfonyNew\Component\Console\Exception\InvalidArgumentException;
+use SymfonyNew\Component\Console\Input\InputArgument;
+use SymfonyNew\Component\Console\Input\InputInterface;
+use SymfonyNew\Component\Console\Input\InputOption;
+use SymfonyNew\Component\Console\Output\OutputInterface;
+use SymfonyNew\Component\Console\Style\SymfonyNewStyle;
+use SymfonyNew\Component\Translation\Provider\TranslationProviderCollection;
+use SymfonyNew\Component\Translation\Reader\TranslationReaderInterface;
+use SymfonyNew\Component\Translation\TranslatorBag;
 
 /**
  * @author Mathieu Santostefano <msantostefano@protonmail.com>
@@ -100,7 +100,7 @@ EOF
             throw new InvalidArgumentException(sprintf('You must define "framework.translator.enabled_locales" or "framework.translator.providers.%s.locales" config key in order to work with translation providers.', parse_url($provider, \PHP_URL_SCHEME)));
         }
 
-        $io = new SymfonyStyle($input, $output);
+        $io = new SymfonyNewStyle($input, $output);
         $domains = $input->getOption('domains');
         $locales = $input->getOption('locales');
         $force = $input->getOption('force');

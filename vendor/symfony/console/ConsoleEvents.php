@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Console;
+namespace SymfonyNew\Component\Console;
 
-use Symfony\Component\Console\Event\ConsoleCommandEvent;
-use Symfony\Component\Console\Event\ConsoleErrorEvent;
-use Symfony\Component\Console\Event\ConsoleSignalEvent;
-use Symfony\Component\Console\Event\ConsoleTerminateEvent;
+use SymfonyNew\Component\Console\Event\ConsoleCommandEvent;
+use SymfonyNew\Component\Console\Event\ConsoleErrorEvent;
+use SymfonyNew\Component\Console\Event\ConsoleSignalEvent;
+use SymfonyNew\Component\Console\Event\ConsoleTerminateEvent;
 
 /**
  * Contains all events dispatched by an Application.
@@ -28,7 +28,7 @@ final class ConsoleEvents
      * executed by the console. It also allows you to modify the command, input and output
      * before they are handed to the command.
      *
-     * @Event("Symfony\Component\Console\Event\ConsoleCommandEvent")
+     * @Event("SymfonyNew\Component\Console\Event\ConsoleCommandEvent")
      */
     public const COMMAND = 'console.command';
 
@@ -36,7 +36,7 @@ final class ConsoleEvents
      * The SIGNAL event allows you to perform some actions
      * after the command execution was interrupted.
      *
-     * @Event("Symfony\Component\Console\Event\ConsoleSignalEvent")
+     * @Event("SymfonyNew\Component\Console\Event\ConsoleSignalEvent")
      */
     public const SIGNAL = 'console.signal';
 
@@ -44,7 +44,7 @@ final class ConsoleEvents
      * The TERMINATE event allows you to attach listeners after a command is
      * executed by the console.
      *
-     * @Event("Symfony\Component\Console\Event\ConsoleTerminateEvent")
+     * @Event("SymfonyNew\Component\Console\Event\ConsoleTerminateEvent")
      */
     public const TERMINATE = 'console.terminate';
 
@@ -54,7 +54,7 @@ final class ConsoleEvents
      * This event allows you to deal with the exception/error or
      * to modify the thrown exception.
      *
-     * @Event("Symfony\Component\Console\Event\ConsoleErrorEvent")
+     * @Event("SymfonyNew\Component\Console\Event\ConsoleErrorEvent")
      */
     public const ERROR = 'console.error';
 

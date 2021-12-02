@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Translation;
+namespace SymfonyNew\Component\Translation;
 
-use Symfony\Contracts\Translation\TranslatorInterface;
+use SymfonyNew\Contracts\Translation\TranslatorInterface;
 
 /**
  * This translator should only be used in a development environment.

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Translation;
+namespace SymfonyNew\Component\Translation;
 
-use Symfony\Component\Config\Resource\ResourceInterface;
-use Symfony\Component\Translation\Exception\LogicException;
+use SymfonyNew\Component\Config\Resource\ResourceInterface;
+use SymfonyNew\Component\Translation\Exception\LogicException;
 
 /**
  * @author Fabien Potencier <fabien@symfony.com>

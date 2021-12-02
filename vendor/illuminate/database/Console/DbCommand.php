@@ -4,7 +4,7 @@ namespace IlluminateNew\Database\Console;
 
 use IlluminateNew\Console\Command;
 use IlluminateNew\Support\ConfigurationUrlParser;
-use Symfony\Component\Process\Process;
+use SymfonyNew\Component\Process\Process;
 use UnexpectedValueException;
 
 class DbCommand extends Command

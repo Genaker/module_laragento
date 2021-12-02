@@ -1,11 +1,11 @@
-Symfony Deprecation Contracts
+SymfonyNew Deprecation Contracts
 =============================
 
 A generic function and convention to trigger deprecation notices.
 
 This package provides a single global function named `trigger_deprecation()` that triggers silenced deprecation notices.
 
-By using a custom PHP error handler such as the one provided by the Symfony ErrorHandler component,
+By using a custom PHP error handler such as the one provided by the SymfonyNew ErrorHandler component,
 the triggered deprecations can be caught and logged for later discovery, both on dev and prod environments.
 
 The function requires at least 3 arguments:

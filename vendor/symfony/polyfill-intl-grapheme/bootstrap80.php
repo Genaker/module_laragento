@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-use Symfony\Polyfill\Intl\Grapheme as p;
+use SymfonyNew\Polyfill\Intl\Grapheme as p;
 
 if (!defined('GRAPHEME_EXTR_COUNT')) {
     define('GRAPHEME_EXTR_COUNT', 0);

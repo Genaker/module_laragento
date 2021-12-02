@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Console\Output;
+namespace SymfonyNew\Component\Console\Output;
 
-use Symfony\Component\Console\Formatter\OutputFormatter;
-use Symfony\Component\Console\Formatter\OutputFormatterInterface;
+use SymfonyNew\Component\Console\Formatter\OutputFormatter;
+use SymfonyNew\Component\Console\Formatter\OutputFormatterInterface;
 
 /**
  * Base class for output classes.

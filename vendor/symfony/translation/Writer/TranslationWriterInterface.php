@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Translation\Writer;
+namespace SymfonyNew\Component\Translation\Writer;
 
-use Symfony\Component\Translation\Exception\InvalidArgumentException;
-use Symfony\Component\Translation\MessageCatalogue;
+use SymfonyNew\Component\Translation\Exception\InvalidArgumentException;
+use SymfonyNew\Component\Translation\MessageCatalogue;
 
 /**
  * TranslationWriter writes translation messages.

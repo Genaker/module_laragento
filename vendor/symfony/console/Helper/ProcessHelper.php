@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Console\Helper;
+namespace SymfonyNew\Component\Console\Helper;
 
-use Symfony\Component\Console\Output\ConsoleOutputInterface;
-use Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Component\Process\Exception\ProcessFailedException;
-use Symfony\Component\Process\Process;
+use SymfonyNew\Component\Console\Output\ConsoleOutputInterface;
+use SymfonyNew\Component\Console\Output\OutputInterface;
+use SymfonyNew\Component\Process\Exception\ProcessFailedException;
+use SymfonyNew\Component\Process\Process;
 
 /**
  * The ProcessHelper class provides helpers to run external processes.

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Translation\Dumper;
+namespace SymfonyNew\Component\Translation\Dumper;
 
-use Symfony\Component\Translation\Exception\InvalidArgumentException;
-use Symfony\Component\Translation\MessageCatalogue;
+use SymfonyNew\Component\Translation\Exception\InvalidArgumentException;
+use SymfonyNew\Component\Translation\MessageCatalogue;
 
 /**
  * XliffFileDumper generates xliff files from a message catalogue.
@@ -57,7 +57,7 @@ class XliffFileDumper extends FileDumper
 
     private function dumpXliff1(string $defaultLocale, MessageCatalogue $messages, ?string $domain, array $options = [])
     {
-        $toolInfo = ['tool-id' => 'symfony', 'tool-name' => 'Symfony'];
+        $toolInfo = ['tool-id' => 'symfony', 'tool-name' => 'SymfonyNew'];
         if (\array_key_exists('tool_info', $options)) {
             $toolInfo = array_merge($toolInfo, $options['tool_info']);
         }

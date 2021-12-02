@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Console;
+namespace SymfonyNew\Component\Console;
 
-use Symfony\Component\Console\Exception\InvalidArgumentException;
+use SymfonyNew\Component\Console\Exception\InvalidArgumentException;
 
 /**
  * @author Fabien Potencier <fabien@symfony.com>

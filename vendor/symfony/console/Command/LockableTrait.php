@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Console\Command;
+namespace SymfonyNew\Component\Console\Command;
 
-use Symfony\Component\Console\Exception\LogicException;
-use Symfony\Component\Lock\Lock;
-use Symfony\Component\Lock\LockFactory;
-use Symfony\Component\Lock\Store\FlockStore;
-use Symfony\Component\Lock\Store\SemaphoreStore;
+use SymfonyNew\Component\Console\Exception\LogicException;
+use SymfonyNew\Component\Lock\Lock;
+use SymfonyNew\Component\Lock\LockFactory;
+use SymfonyNew\Component\Lock\Store\FlockStore;
+use SymfonyNew\Component\Lock\Store\SemaphoreStore;
 
 /**
  * Basic lock feature for commands.

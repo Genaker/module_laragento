@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Translation\DependencyInjection;
+namespace SymfonyNew\Component\Translation\DependencyInjection;
 
-use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
-use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Symfony\Component\DependencyInjection\Reference;
+use SymfonyNew\Component\DependencyInjection\Compiler\CompilerPassInterface;
+use SymfonyNew\Component\DependencyInjection\ContainerBuilder;
+use SymfonyNew\Component\DependencyInjection\Reference;
 
 /**
  * Adds tagged translation.formatter services to translation writer.

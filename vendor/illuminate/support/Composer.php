@@ -3,8 +3,8 @@
 namespace IlluminateNew\Support;
 
 use IlluminateNew\Filesystem\Filesystem;
-use Symfony\Component\Process\PhpExecutableFinder;
-use Symfony\Component\Process\Process;
+use SymfonyNew\Component\Process\PhpExecutableFinder;
+use SymfonyNew\Component\Process\Process;
 
 class Composer
 {
@@ -85,10 +85,10 @@ class Composer
     }
 
     /**
-     * Get a new Symfony process instance.
+     * Get a new SymfonyNew process instance.
      *
      * @param  array  $command
-     * @return \Symfony\Component\Process\Process
+     * @return \SymfonyNew\Component\Process\Process
      */
     protected function getProcess(array $command)
     {

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Console\Helper;
+namespace SymfonyNew\Component\Console\Helper;
 
-use Symfony\Component\Console\Cursor;
-use Symfony\Component\Console\Exception\LogicException;
-use Symfony\Component\Console\Output\ConsoleOutputInterface;
-use Symfony\Component\Console\Output\ConsoleSectionOutput;
-use Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Component\Console\Terminal;
+use SymfonyNew\Component\Console\Cursor;
+use SymfonyNew\Component\Console\Exception\LogicException;
+use SymfonyNew\Component\Console\Output\ConsoleOutputInterface;
+use SymfonyNew\Component\Console\Output\ConsoleSectionOutput;
+use SymfonyNew\Component\Console\Output\OutputInterface;
+use SymfonyNew\Component\Console\Terminal;
 
 /**
  * The ProgressBar provides helpers to display progress output.

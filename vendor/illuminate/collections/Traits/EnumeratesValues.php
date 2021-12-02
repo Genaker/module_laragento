@@ -13,7 +13,7 @@ use IlluminateNew\Support\Enumerable;
 use IlluminateNew\Support\HigherOrderCollectionProxy;
 use IlluminateNew\Support\HigherOrderWhenProxy;
 use JsonSerializable;
-use Symfony\Component\VarDumper\VarDumper;
+use SymfonyNew\Component\VarDumper\VarDumper;
 use Traversable;
 use UnexpectedValueException;
 

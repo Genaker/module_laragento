@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Translation\Dumper;
+namespace SymfonyNew\Component\Translation\Dumper;
 
-use Symfony\Component\Translation\Exception\LogicException;
-use Symfony\Component\Translation\MessageCatalogue;
-use Symfony\Component\Translation\Util\ArrayConverter;
-use Symfony\Component\Yaml\Yaml;
+use SymfonyNew\Component\Translation\Exception\LogicException;
+use SymfonyNew\Component\Translation\MessageCatalogue;
+use SymfonyNew\Component\Translation\Util\ArrayConverter;
+use SymfonyNew\Component\Yaml\Yaml;
 
 /**
  * YamlFileDumper generates yaml files from a message catalogue.
@@ -36,7 +36,7 @@ class YamlFileDumper extends FileDumper
     public function formatCatalogue(MessageCatalogue $messages, string $domain, array $options = [])
     {
         if (!class_exists(Yaml::class)) {
-            throw new LogicException('Dumping translations in the YAML format requires the Symfony Yaml component.');
+            throw new LogicException('Dumping translations in the YAML format requires the SymfonyNew Yaml component.');
         }
 
         $data = $messages->all($domain);

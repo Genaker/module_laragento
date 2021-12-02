@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -42,9 +42,9 @@ $config = [
     'include_completed_languages' => true,
     // the reference files all the other translations are compared to
     'original_files' => [
-        'src/Symfony/Component/Form/Resources/translations/validators.en.xlf',
-        'src/Symfony/Component/Security/Core/Resources/translations/security.en.xlf',
-        'src/Symfony/Component/Validator/Resources/translations/validators.en.xlf',
+        'src/SymfonyNew/Component/Form/Resources/translations/validators.en.xlf',
+        'src/SymfonyNew/Component/Security/Core/Resources/translations/security.en.xlf',
+        'src/SymfonyNew/Component/Validator/Resources/translations/validators.en.xlf',
     ],
 ];
 
@@ -71,7 +71,7 @@ foreach (array_slice($argv, 1) as $argumentOrOption) {
 
 foreach ($config['original_files'] as $originalFilePath) {
     if (!file_exists($originalFilePath)) {
-        echo sprintf('The following file does not exist. Make sure that you execute this command at the root dir of the Symfony code repository.%s  %s', \PHP_EOL, $originalFilePath);
+        echo sprintf('The following file does not exist. Make sure that you execute this command at the root dir of the SymfonyNew code repository.%s  %s', \PHP_EOL, $originalFilePath);
         exit(1);
     }
 }

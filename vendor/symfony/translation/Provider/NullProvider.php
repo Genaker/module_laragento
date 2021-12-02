@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Translation\Provider;
+namespace SymfonyNew\Component\Translation\Provider;
 
-use Symfony\Component\Translation\TranslatorBag;
-use Symfony\Component\Translation\TranslatorBagInterface;
+use SymfonyNew\Component\Translation\TranslatorBag;
+use SymfonyNew\Component\Translation\TranslatorBagInterface;
 
 /**
  * @author Mathieu Santostefano <msantostefano@protonmail.com>

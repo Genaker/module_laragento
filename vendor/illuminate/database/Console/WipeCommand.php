@@ -4,7 +4,7 @@ namespace IlluminateNew\Database\Console;
 
 use IlluminateNew\Console\Command;
 use IlluminateNew\Console\ConfirmableTrait;
-use Symfony\Component\Console\Input\InputOption;
+use SymfonyNew\Component\Console\Input\InputOption;
 
 class WipeCommand extends Command
 {

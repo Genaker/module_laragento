@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Translation\Exception;
+namespace SymfonyNew\Component\Translation\Exception;
 
-use Symfony\Component\Translation\Bridge;
-use Symfony\Component\Translation\Provider\Dsn;
+use SymfonyNew\Component\Translation\Bridge;
+use SymfonyNew\Component\Translation\Provider\Dsn;
 
 class UnsupportedSchemeException extends LogicException
 {

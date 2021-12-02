@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file is part of the SymfonyNew package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\String\Slugger;
+namespace SymfonyNew\Component\String\Slugger;
 
-use Symfony\Component\String\AbstractUnicodeString;
+use SymfonyNew\Component\String\AbstractUnicodeString;
 
 /**
  * Creates a URL-friendly slug from a given string.
